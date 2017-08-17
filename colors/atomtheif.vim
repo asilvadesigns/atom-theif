@@ -8,6 +8,8 @@
 "
 "     Initialize
 "     Colors
+"         Normal
+"         Numbers
 "     License
 
 
@@ -34,9 +36,17 @@ let colors_name = 'atomtheif'
 "--------------------------------------"
 "   Colors
 
+
 "   Colors | Normal
 "   ~normal text colors
-hi! Normal guibg=#333333 guifg=#ffffff
+hi! Normal guibg=#282b3c guifg=#6a6f89
+
+
+"   Colors | Numbers
+"   ~number line
+hi! LineNr guibg=#282b3c guifg=#6a6f89 
+"   ~cursor line
+hi! CursorLineNr guibg=#282b3c guifg=#aeb3ce 
 
 
 
