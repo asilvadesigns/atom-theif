@@ -36,7 +36,7 @@ let colors_name = 'atomtheif'
 
 "   Colors | Normal
 "   ~normal text colors
-hi Normal guibg=#333333 guifg=#ffffff
+hi! Normal guibg=#333333 guifg=#ffffff
 
 
 
