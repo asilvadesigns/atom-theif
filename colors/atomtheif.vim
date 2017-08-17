@@ -40,19 +40,19 @@ let colors_name = 'atomtheif'
 
 "   Colors | Comments
 "   ~comment colors
-hi! Comment guibg=#303340 guifg=#7b8096
+hi! Comment gui=NONE guifg=#7b8096 guibg=#303340
 
 
 "   Colors | Normal
 "   ~normal text colors
-hi! Normal guibg=#303340 guifg=#7b8096
+hi! Normal gui=NONE guifg=#7b8096 guibg=NONE
 
 
 "   Colors | Numbers
 "   ~number line
-hi! LineNr guibg=#303340 guifg=#545b76 
+hi! LineNr gui=NONE guifg=#545b76 guibg=NONE
 "   ~cursor line
-hi! CursorLineNr guibg=#303340 guifg=#bac1d9 
+hi! CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
 
 
 
