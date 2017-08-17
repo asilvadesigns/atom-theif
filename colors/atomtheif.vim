@@ -22,14 +22,12 @@
 
 "   ~reset highlight groups
 highlight clear
-"   ~reset syntax
 if exists('syntax_on')
   syntax reset
 endif
-"   ~enable 256 color support in vim
-set t_Co=256
+
 "   ~set colorscheme name
-let colors_name = 'atomtheif'
+let g:colors_name = 'atomtheif'
 
 
 
@@ -40,13 +38,13 @@ let colors_name = 'atomtheif'
 
 if !has('gui_running')
   "   ~comment colors
-  hi! Comment gui=NONE guifg=#7b8096 guibg=#303340
+  hi Comment gui=NONE guifg=#7b8096 guibg=#303340
   "   ~normal text colors
-  hi! Normal gui=NONE guifg=#7b8096 guibg=NONE
+  hi Normal gui=NONE guifg=#7b8096 guibg=NONE
   "   ~number line
-  hi! LineNr gui=NONE guifg=#545b76 guibg=NONE
+  hi LineNr gui=NONE guifg=#545b76 guibg=NONE
   "   ~cursor line
-  hi! CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
+  hi CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
 endif
 
 
