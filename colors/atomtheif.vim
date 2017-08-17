@@ -38,21 +38,16 @@ let colors_name = 'atomtheif'
 "   Colors
 
 
-"   Colors | Comments
-"   ~comment colors
-hi! Comment gui=NONE guifg=#7b8096 guibg=#303340
-
-
-"   Colors | Normal
-"   ~normal text colors
-hi! Normal gui=NONE guifg=#7b8096 guibg=NONE
-
-
-"   Colors | Numbers
-"   ~number line
-hi! LineNr gui=NONE guifg=#545b76 guibg=NONE
-"   ~cursor line
-hi! CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
+if !has('gui_running')
+  "   ~comment colors
+  hi! Comment gui=NONE guifg=#7b8096 guibg=#303340
+  "   ~normal text colors
+  hi! Normal gui=NONE guifg=#7b8096 guibg=NONE
+  "   ~number line
+  hi! LineNr gui=NONE guifg=#545b76 guibg=NONE
+  "   ~cursor line
+  hi! CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
+endif
 
 
 
