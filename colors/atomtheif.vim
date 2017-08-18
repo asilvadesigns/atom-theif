@@ -62,6 +62,8 @@ if !has('gui_running')
   hi htmlArg gui=NONE guifg=#dca875 guibg=NONE
   "   ~html - value
   hi htmlString gui=NONE guifg=#87c792 guibg=NONE
+  "   ~html - tag - title tag
+  hi htmlString gui=NONE guifg=NONE guibg=NONE
 endif
 
 
