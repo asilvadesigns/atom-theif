@@ -36,65 +36,80 @@ let g:colors_name = 'atomtheif'
 "   Colors
 
 
-if !has('gui_running')
-  "   ~normal
-  hi! Normal gui=NONE guifg=#7b8096 guibg=#272935
-  "   ~comments
-  hi! Comment gui=italic guifg=#7b8096 guibg=NONE
+"   ~normal
+hi Normal gui=NONE guifg=#7b8096 guibg=#272935
+"  ~comments
+hi Comment gui=italic guifg=#7b8096 guibg=NONE
 
 
-  "   ~number gutter line
-  hi! LineNr gui=NONE guifg=#545b76 guibg=NONE
-  "   ~number cursor line
-  hi! CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
+"  ~number gutter line
+hi LineNr gui=NONE guifg=#545b76 guibg=NONE
+"  ~number cursor line
+hi CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
 
 
-  "   ~buffer vertical split
-  hi! VertSplit gui=NONE guifg=#303340 guibg=NONE
-  "   ~buffer vertical tildes
-  hi! EndOfBuffer gui=NONE guifg=#303340 guibg=NONE
+"  ~buffer vertical split
+hi VertSplit gui=NONE guifg=#303340 guibg=NONE
+"  ~buffer vertical tildes
+hi EndOfBuffer gui=NONE guifg=#303340 guibg=NONE
 
 
-  "   ~statusline active
-  hi! StatusLine gui=NONE guifg=#bac1d9 guibg=NONE
-  "   ~statusline
-  hi! StatusLineNC gui=NONE guifg=#545b76 guibg=NONE
+"  ~statusline active
+hi StatusLine gui=NONE guifg=#bac1d9 guibg=NONE
+"  ~statusline
+hi StatusLineNC gui=NONE guifg=#545b76 guibg=NONE
 
 
-  "   ~visual selections
-  hi! Visual gui=NONE guifg=NONE guibg=#252834
+"  ~visual selections
+hi Visual gui=NONE guifg=NONE guibg=#252834
 
 
-  "   ~html - tag brackets and slash
-  hi! htmlTag gui=NONE guifg=#d1d3db guibg=NONE
-  hi! htmlTagN gui=NONE guifg=#d1d3db guibg=NONE
-  hi! htmlEndTag gui=NONE guifg=#d1d3db guibg=NONE
-  " !  ~html - tag name
-  hi! htmlTagName gui=NONE guifg=#e27b82 guibg=NONE
-  hi! htmlSpecialTagName gui=NONE guifg=#e27b82 guibg=NONE
-  " !  ~html - attribute
-  hi! htmlArg gui=NONE guifg=#dca875 guibg=NONE
-  " !  ~html - value
-  hi! htmlString gui=NONE guifg=#87c792 guibg=NONE
-  " !  ~html - tag - headings
-  hi! htmlH1 gui=NONE guifg=NONE guibg=NONE
-  hi! htmlH2 gui=NONE guifg=NONE guibg=NONE
-  hi! htmlH3 gui=NONE guifg=NONE guibg=NONE
-  hi! htmlH4 gui=NONE guifg=NONE guibg=NONE
-  hi! htmlH5 gui=NONE guifg=NONE guibg=NONE
-  hi! htmlH6 gui=NONE guifg=NONE guibg=NONE
-  "   ~html - tag - title tag
-  hi! htmlTitle gui=NONE guifg=NONE guibg=NONE
+"  ~html - tag brackets and slash
+hi htmlTag gui=NONE guifg=#d1d3db guibg=NONE
+hi htmlTagN gui=NONE guifg=#d1d3db guibg=NONE
+hi htmlEndTag gui=NONE guifg=#d1d3db guibg=NONE
+"   ~html - tag name
+hi htmlTagName gui=NONE guifg=#e27b82 guibg=NONE
+hi htmlSpecialTagName gui=NONE guifg=#e27b82 guibg=NONE
+"   ~html - attribute
+hi htmlArg gui=NONE guifg=#dca875 guibg=NONE
+"   ~html - value
+hi htmlString gui=NONE guifg=#87c792 guibg=NONE
+"   ~html - tag - headings
+hi htmlH1 gui=NONE guifg=NONE guibg=NONE
+hi htmlH2 gui=NONE guifg=NONE guibg=NONE
+hi htmlH3 gui=NONE guifg=NONE guibg=NONE
+hi htmlH4 gui=NONE guifg=NONE guibg=NONE
+hi htmlH5 gui=NONE guifg=NONE guibg=NONE
+hi htmlH6 gui=NONE guifg=NONE guibg=NONE
+"  ~html - tag - title tag
+hi htmlTitle gui=NONE guifg=NONE guibg=NONE
 
 
-  "   ~buffer tabline active
-  hi! BufTabLineCurrent guibg=NONE guifg=#bac1d9
-  "   ~buffer tabline
-  hi! BufTabLineActive guibg=NONE guifg=#7b8096
-  hi! BufTabLineHidden guibg=NONE guifg=#7b8096
-  hi! BufTabLineFill guibg=NONE guifg=#7b8096
+"  ~css
+hi cssStringQ gui=NONE guifg=#87c792 guibg=NONE
+"  ~css property
+hi cssFontProp gui=NONE guifg=#bac1d9 guibg=NONE
+hi cssTextProp gui=NONE guifg=#bac1d9 guibg=NONE
+"  ~css braces
+hi cssBraces gui=NONE guifg=#bac1d9 guibg=NONE
+"  ~css numbers
+hi cssValueNumber gui=NONE guifg=#dca875 guibg=NONE
+hi cssColor gui=NONE guifg=#dca875 guibg=NONE
+"  ~css units
+hi cssUnitDecorators gui=NONE guifg=#dca875 guibg=NONE
+"  ~css tag name
+hi cssTagName gui=NONE guifg=#e27b82 guibg=NONE
+"  ~scss import
+hi scssImport gui=NONE guifg=#c495dc guibg=NONE
 
-endif
+
+"  ~buffer tabline active
+hi BufTabLineCurrent guibg=NONE guifg=#bac1d9
+"  ~buffer tabline
+hi BufTabLineActive guibg=NONE guifg=#7b8096
+hi BufTabLineHidden guibg=NONE guifg=#7b8096
+hi BufTabLineFill guibg=NONE guifg=#7b8096
 
 
 
