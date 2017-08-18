@@ -41,14 +41,23 @@ if !has('gui_running')
   hi Normal gui=NONE guifg=#7b8096 guibg=#303340
   "   ~comments
   hi Comment gui=italic guifg=#7b8096 guibg=NONE
+
   "   ~number gutter line
   hi LineNr gui=NONE guifg=#545b76 guibg=NONE
   "   ~number cursor line
   hi CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
+
   "   ~buffer vertical split
   hi VertSplit gui=NONE guifg=#303340 guibg=NONE
   "   ~buffer vertical tildes
   hi EndOfBuffer gui=NONE guifg=#303340 guibg=NONE
+
+  "   ~html - tag name
+  hi htmlTagName gui=NONE guifg=#e27b82 guibg=NONE
+  "   ~html - attribute
+  hi htmlArg gui=NONE guifg=#dca875 guibg=NONE
+  "   ~html - value
+  hi htmlString gui=NONE guifg=#87c792 guibg=NONE
 endif
 
 
