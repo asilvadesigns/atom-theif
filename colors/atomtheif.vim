@@ -61,6 +61,10 @@ if !has('gui_running')
   hi StatusLineNC gui=NONE guifg=#545b76 guibg=NONE
 
 
+  "   ~visual selections
+  hi Visual gui=NONE guifg=NONE guibg=#252834
+
+
   "   ~html - tag brackets and slash
   hi htmlTag gui=NONE guifg=#d1d3db guibg=NONE
   hi htmlTagN gui=NONE guifg=#d1d3db guibg=NONE
@@ -81,6 +85,8 @@ if !has('gui_running')
   hi htmlH6 gui=NONE guifg=NONE guibg=NONE
   "   ~html - tag - title tag
   hi htmlTitle gui=NONE guifg=NONE guibg=NONE
+
+
 endif
 
 
