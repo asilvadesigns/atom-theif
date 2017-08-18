@@ -38,7 +38,7 @@ let g:colors_name = 'atomtheif'
 
 if !has('gui_running')
   "   ~comment colors
-  hi Comment gui=NONE guifg=#7b8096 guibg=#303340
+  hi Comment gui=italic guifg=#7b8096 guibg=#303340
   "   ~normal text colors
   hi Normal gui=NONE guifg=#7b8096 guibg=NONE
   "   ~number line
