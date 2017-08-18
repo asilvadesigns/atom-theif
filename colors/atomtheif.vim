@@ -38,7 +38,7 @@ let g:colors_name = 'atomtheif'
 
 if !has('gui_running')
   "   ~normal
-  hi Normal gui=NONE guifg=#7b8096 guibg=#303340
+  hi Normal gui=NONE guifg=#d1d3db guibg=#303340
   "   ~comments
   hi Comment gui=italic guifg=#7b8096 guibg=NONE
 
@@ -52,6 +52,8 @@ if !has('gui_running')
   "   ~buffer vertical tildes
   hi EndOfBuffer gui=NONE guifg=#303340 guibg=NONE
 
+  "   ~html - tag
+  hi htmlTag gui=NONE guifg=#d1d3db guibg=NONE
   "   ~html - tag name
   hi htmlTagName gui=NONE guifg=#e27b82 guibg=NONE
   "   ~html - attribute
