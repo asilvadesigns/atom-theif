@@ -71,6 +71,13 @@ if !has('gui_running')
   hi htmlArg gui=NONE guifg=#dca875 guibg=NONE
   "   ~html - value
   hi htmlString gui=NONE guifg=#87c792 guibg=NONE
+  "   ~html - tag - headings
+  hi htmlH1 gui=NONE guifg=NONE guibg=NONE
+  hi htmlH2 gui=NONE guifg=NONE guibg=NONE
+  hi htmlH3 gui=NONE guifg=NONE guibg=NONE
+  hi htmlH4 gui=NONE guifg=NONE guibg=NONE
+  hi htmlH5 gui=NONE guifg=NONE guibg=NONE
+  hi htmlH6 gui=NONE guifg=NONE guibg=NONE
   "   ~html - tag - title tag
   hi htmlTitle gui=NONE guifg=NONE guibg=NONE
 endif
