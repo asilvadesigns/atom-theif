@@ -42,15 +42,24 @@ if !has('gui_running')
   "   ~comments
   hi Comment gui=italic guifg=#7b8096 guibg=NONE
 
+
   "   ~number gutter line
   hi LineNr gui=NONE guifg=#545b76 guibg=NONE
   "   ~number cursor line
   hi CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
 
+
   "   ~buffer vertical split
   hi VertSplit gui=NONE guifg=#303340 guibg=NONE
   "   ~buffer vertical tildes
   hi EndOfBuffer gui=NONE guifg=#303340 guibg=NONE
+
+
+  "   ~statusline active
+  hi StatusLine gui=NONE guifg=#bac1d9 guibg=NONE
+  "   ~statusline
+  hi StatusLineNC gui=NONE guifg=#545b76 guibg=NONE
+
 
   "   ~html - tag brackets and slash
   hi htmlTag gui=NONE guifg=#d1d3db guibg=NONE
