@@ -67,6 +67,7 @@ if !has('gui_running')
   hi htmlEndTag gui=NONE guifg=#d1d3db guibg=NONE
   "   ~html - tag name
   hi htmlTagName gui=NONE guifg=#e27b82 guibg=NONE
+  hi htmlSpecialTagName gui=NONE guifg=#e27b82 guibg=NONE
   "   ~html - attribute
   hi htmlArg gui=NONE guifg=#dca875 guibg=NONE
   "   ~html - value
