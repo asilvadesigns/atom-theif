@@ -37,14 +37,18 @@ let g:colors_name = 'atomtheif'
 
 
 if !has('gui_running')
-  "   ~comment colors
-  hi Comment gui=italic guifg=#7b8096 guibg=#303340
-  "   ~normal text colors
-  hi Normal gui=NONE guifg=#7b8096 guibg=NONE
-  "   ~number line
+  "   ~normal
+  hi Normal gui=NONE guifg=#7b8096 guibg=#303340
+  "   ~comments
+  hi Comment gui=italic guifg=#7b8096 guibg=NONE
+  "   ~number gutter line
   hi LineNr gui=NONE guifg=#545b76 guibg=NONE
-  "   ~cursor line
+  "   ~number cursor line
   hi CursorLineNr gui=NONE guifg=#bac1d9 guibg=NONE
+  "   ~buffer vertical split
+  hi VertSplit gui=NONE guifg=#303340 guibg=NONE
+  "   ~buffer vertical tildes
+  hi EndOfBuffer gui=NONE guifg=#303340 guibg=NONE
 endif
 
 
