@@ -65,6 +65,14 @@ if !has('gui_running')
   hi Visual gui=NONE guifg=NONE guibg=#252834
 
 
+  "   ~buffer tabline active
+  hi BufTabLineCurrent guibg=NONE guifg=#bac1d9
+  "   ~buffer tabline
+  hi BufTabLineActive guibg=NONE guifg=#7b8096
+  hi BufTabLineHidden guibg=NONE guifg=#7b8096
+  hi BufTabLineFill guibg=NONE guifg=#7b8096
+
+
   "   ~html - tag brackets and slash
   hi htmlTag gui=NONE guifg=#d1d3db guibg=NONE
   hi htmlTagN gui=NONE guifg=#d1d3db guibg=NONE
