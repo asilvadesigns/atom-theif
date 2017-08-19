@@ -9,7 +9,7 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'atomtheif'
 
-hi Normal gui=NONE guifg=#8b9eae guibg=#252b30
+hi Normal gui=NONE guifg=#abb2bf guibg=#282c34
 
 hi Constant gui=NONE guifg=NONE guibg=NONE
 hi Identifier gui=NONE guifg=NONE guibg=NONE
@@ -22,13 +22,13 @@ hi Ignore gui=NONE guifg=NONE guibg=NONE
 hi Error gui=NONE guifg=NONE guibg=NONE
 hi Todo gui=NONE guifg=NONE guibg=NONE
 
-hi Comment gui=NONE guifg=#5a6a76 guibg=NONE
+hi Comment gui=NONE guifg=#5c6370 guibg=NONE
 " hi Conceal gui=NONE guifg=NONE guibg=NONE
-" hi Cursor gui=NONE guifg=NONE guibg=NONE
+hi Cursor gui=NONE guifg=#6494ed guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
 " hi CursorLine gui=NONE guifg=NONE guibg=NONE
-hi CursorLineNr gui=NONE guifg=NONE guibg=NONE
+hi CursorLineNr gui=NONE guifg=#6494ed guibg=NONE
 " hi DiffAdd gui=NONE guifg=NONE guibg=NONE
 " hi DiffChange gui=NONE guifg=NONE guibg=NONE
 " hi DiffDelete gui=NONE guifg=NONE guibg=NONE
@@ -38,7 +38,7 @@ hi CursorLineNr gui=NONE guifg=NONE guibg=NONE
 " hi FoldColumn gui=NONE guifg=NONE guibg=NONE
 " hi Folded gui=NONE guifg=NONE guibg=NONE
 " hi IncSearchc gui=NONE guifg=NONE guibg=NONE
-hi LineNr gui=NONE guifg=#3a444d guibg=NONE
+hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi MatchParen gui=NONE guifg=NONE guibg=NONE
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
@@ -82,45 +82,45 @@ hi link htmlH5 Normal
 hi link htmlH6 Normal
 hi link htmlTitle Normal
 " red
-hi htmlTagName gui=NONE guifg=#db616a guibg=NONE
+hi htmlTagName gui=NONE guifg=#e06c75 guibg=NONE
 hi link htmlSpecialTagName htmlTagName
 " green
-hi htmlString gui=NONE guifg=#94c49c guibg=NONE
+hi htmlString gui=NONE guifg=#98c379 guibg=NONE
 " yellow
-hi htmlArg gui=NONE guifg=#dca875 guibg=NONE
+hi htmlArg gui=NONE guifg=#d19a66 guibg=NONE
 
 
 " normal
 hi link jsParens Normal
 " red
-hi jsGlobalObjects gui=NONE guifg=#db616a guibg=NONE
+hi jsGlobalObjects gui=NONE guifg=#e06c75 guibg=NONE
 " purple
-hi jsStorageClass gui=NONE guifg=#b26bd6 guibg=NONE
+hi jsStorageClass gui=NONE guifg=#c678dd guibg=NONE
 hi link jsFunction jsStorageClass
 hi link jsReturn jsStorageClass
 hi link jsConditional jsStorageClass
 " blue
-hi jsFuncName gui=NONE guifg=#4aa3ef guibg=NONE
+hi jsFuncName gui=NONE guifg=#61afef guibg=NONE
 " green
-hi jsString gui=NONE guifg=#94c49c guibg=NONE
+hi jsString gui=NONE guifg=#98c379 guibg=NONE
 " cyan
-hi jsFuncCall gui=NONE guifg=#56bec7 guibg=NONE
+hi jsFuncCall gui=NONE guifg=#56b6c2 guibg=NONE
 hi link jsOperator jsFuncCall
 
 
 " red
-hi cssTagName gui=NONE guifg=#db616a guibg=NONE
+hi cssTagName gui=NONE guifg=#e06c75 guibg=NONE
 " yellow
-hi cssClassName gui=NONE guifg=#dca875 guibg=NONE
+hi cssClassName gui=NONE guifg=#d19a66 guibg=NONE
 hi link cssClassNameDot cssClassName
 hi link cssValueNumber cssClassName
 hi link cssUnitDecorators cssClassName
 hi link cssPseudoClassId cssClassName
 " purple
-hi cssImportant gui=NONE guifg=#b26bd6 guibg=NONE
+hi cssImportant gui=NONE guifg=#c678dd guibg=NONE
 hi link cssIncludeKeyword cssImportant
 " green
-hi cssStringQ gui=NONE guifg=#94c49c guibg=NONE
+hi cssStringQ gui=NONE guifg=#98c379 guibg=NONE
 
 
 " MIT License
