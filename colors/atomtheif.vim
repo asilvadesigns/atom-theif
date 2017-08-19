@@ -44,10 +44,10 @@ hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
 " hi NonText gui=NONE guifg=NONE guibg=NONE
 " hi Normal gui=NONE guifg=NONE guibg=NONE
-" hi Pmenu gui=NONE guifg=NONE guibg=NONE
-" hi PmenuSbar gui=NONE guifg=NONE guibg=NONE
-" hi PmenuSel gui=NONE guifg=NONE guibg=NONE
-" hi PmenuThumb gui=NONE guifg=NONE guibg=NONE
+hi Pmenu gui=NONE guifg=NONE guibg=NONE
+hi PmenuSbar gui=NONE guifg=NONE guibg=NONE
+hi PmenuSel gui=NONE guifg=NONE guibg=NONE
+hi PmenuThumb gui=NONE guifg=NONE guibg=NONE
 " hi Question gui=NONE guifg=NONE guibg=NONE
 " hi QuickFixLine gui=NONE guifg=NONE guibg=NONE
 " hi Search gui=NONE guifg=NONE guibg=NONE
@@ -57,8 +57,8 @@ hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi SpellCap gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare gui=NONE guifg=NONE guibg=NONE
-" hi StatusLine gui=NONE guifg=NONE guibg=NONE
-" hi StatusLineNC gui=NONE guifg=NONE guibg=NONE
+hi StatusLine gui=NONE guifg=NONE guibg=NONE
+hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
 " hi TabLine gui=NONE guifg=NONE guibg=NONE
 " hi TabLineFill gui=NONE guifg=NONE guibg=NONE
@@ -72,6 +72,23 @@ hi VertSplit gui=NONE guifg=NONE guibg=NONE
 " hi Whitespace gui=NONE guifg=NONE guibg=NONE
 " hi WildMenu gui=NONE guifg=NONE guibg=NONE
 
+
+" red
+hi vimVar gui=NONE guifg=#e06c75 guibg=NONE
+" green
+hi vimString gui=NONE guifg=#98c379 guibg=NONE
+" blue
+hi vimFuncName gui=NONE guifg=#61afef guibg=NONE
+" orange
+hi vimHiGuiRgb gui=NONE guifg=#d19a66 guibg=NONE
+hi link vimHiAttrib vimHiGuiRgb
+" yellow
+hi vimHiGroup gui=NONE guifg=#cbb777 guibg=NONE
+hi link vimHiGui vimHiGroup
+hi link vimHiGuiFgBg vimHiGroup
+" purple
+hi vimCommand gui=NONE guifg=#c678dd guibg=NONE
+hi link vimHighlight vimCommand
 
 " normal
 hi link htmlH1 Normal
@@ -94,15 +111,15 @@ hi htmlArg gui=NONE guifg=#d19a66 guibg=NONE
 hi link jsParens Normal
 " red
 hi jsGlobalObjects gui=NONE guifg=#e06c75 guibg=NONE
+" green
+hi jsString gui=NONE guifg=#98c379 guibg=NONE
+" blue
+hi jsFuncName gui=NONE guifg=#61afef guibg=NONE
 " purple
 hi jsStorageClass gui=NONE guifg=#c678dd guibg=NONE
 hi link jsFunction jsStorageClass
 hi link jsReturn jsStorageClass
 hi link jsConditional jsStorageClass
-" blue
-hi jsFuncName gui=NONE guifg=#61afef guibg=NONE
-" green
-hi jsString gui=NONE guifg=#98c379 guibg=NONE
 " cyan
 hi jsFuncCall gui=NONE guifg=#56b6c2 guibg=NONE
 hi link jsOperator jsFuncCall
@@ -110,6 +127,8 @@ hi link jsOperator jsFuncCall
 
 " red
 hi cssTagName gui=NONE guifg=#e06c75 guibg=NONE
+" green
+hi cssStringQ gui=NONE guifg=#98c379 guibg=NONE
 " yellow
 hi cssClassName gui=NONE guifg=#d19a66 guibg=NONE
 hi link cssClassNameDot cssClassName
@@ -119,8 +138,12 @@ hi link cssPseudoClassId cssClassName
 " purple
 hi cssImportant gui=NONE guifg=#c678dd guibg=NONE
 hi link cssIncludeKeyword cssImportant
-" green
-hi cssStringQ gui=NONE guifg=#98c379 guibg=NONE
+
+
+hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
+hi BufTabLineActive gui=NONE guifg=#5c6370 guibg=#21252b
+hi BufTabLineHidden gui=NONE guifg=#5c6370 guibg=#21252b
+hi BufTabLineFill gui=NONE guifg=#5c6370 guibg=#21252b
 
 
 " MIT License
