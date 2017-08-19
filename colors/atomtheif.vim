@@ -9,7 +9,7 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'atomtheif'
 
-hi Normal gui=NONE guifg=#3d4f59 guibg=#182b39
+hi Normal gui=NONE guifg=#73818e guibg=#151f28
 
 hi Constant gui=NONE guifg=NONE guibg=NONE
 hi Identifier gui=NONE guifg=NONE guibg=NONE
@@ -22,7 +22,7 @@ hi Ignore gui=NONE guifg=NONE guibg=NONE
 hi Error gui=NONE guifg=NONE guibg=NONE
 hi Todo gui=NONE guifg=NONE guibg=NONE
 
-hi Comment gui=NONE guifg=NONE guibg=NONE
+hi Comment gui=NONE guifg=#324556 guibg=NONE
 " hi Conceal gui=NONE guifg=NONE guibg=NONE
 " hi Cursor gui=NONE guifg=NONE guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
@@ -38,7 +38,7 @@ hi CursorLineNr gui=NONE guifg=NONE guibg=NONE
 " hi FoldColumn gui=NONE guifg=NONE guibg=NONE
 " hi Folded gui=NONE guifg=NONE guibg=NONE
 " hi IncSearchc gui=NONE guifg=NONE guibg=NONE
-hi LineNr gui=NONE guifg=NONE guibg=NONE
+hi LineNr gui=NONE guifg=#324556 guibg=NONE
 " hi MatchParen gui=NONE guifg=NONE guibg=NONE
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
@@ -66,7 +66,7 @@ hi LineNr gui=NONE guifg=NONE guibg=NONE
 " hi TermCursor gui=NONE guifg=NONE guibg=NONE
 " hi TermCursorNC gui=NONE guifg=NONE guibg=NONE
 " hi Title gui=NONE guifg=NONE guibg=NONE
-" hi VertSplit gui=NONE guifg=NONE guibg=NONE
+hi VertSplit gui=NONE guifg=NONE guibg=NONE
 " hi Visual gui=NONE guifg=NONE guibg=NONE
 " hi WarningMsg gui=NONE guifg=NONE guibg=NONE
 " hi Whitespace gui=NONE guifg=NONE guibg=NONE
