@@ -27,13 +27,13 @@ hi Comment gui=NONE guifg=#5c6370 guibg=NONE
 hi Cursor gui=NONE guifg=#6494ed guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
-" hi CursorLine gui=NONE guifg=NONE guibg=NONE
+hi CursorLine gui=NONE guifg=NONE guibg=#2c313c 
 hi CursorLineNr gui=NONE guifg=#6494ed guibg=NONE
 " hi DiffAdd gui=NONE guifg=NONE guibg=NONE
 " hi DiffChange gui=NONE guifg=NONE guibg=NONE
 " hi DiffDelete gui=NONE guifg=NONE guibg=NONE
 " hi DiffText gui=NONE guifg=NONE guibg=NONE
-" hi EndOfBuffer gui=NONE guifg=NONE guibg=NONE
+hi EndOfBuffer gui=NONE guifg=#282c34 guibg=NONE
 " hi ErrorMsg gui=NONE guifg=NONE guibg=NONE
 " hi FoldColumn gui=NONE guifg=NONE guibg=NONE
 " hi Folded gui=NONE guifg=NONE guibg=NONE
@@ -67,7 +67,7 @@ hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
 " hi TermCursorNC gui=NONE guifg=NONE guibg=NONE
 " hi Title gui=NONE guifg=NONE guibg=NONE
 hi VertSplit gui=NONE guifg=NONE guibg=NONE
-" hi Visual gui=NONE guifg=NONE guibg=NONE
+hi Visual gui=NONE guifg=NONE guibg=#3e4451
 " hi WarningMsg gui=NONE guifg=NONE guibg=NONE
 " hi Whitespace gui=NONE guifg=NONE guibg=NONE
 " hi WildMenu gui=NONE guifg=NONE guibg=NONE
@@ -83,9 +83,10 @@ hi vimFuncName gui=NONE guifg=#61afef guibg=NONE
 hi vimHiGuiRgb gui=NONE guifg=#d19a66 guibg=NONE
 hi link vimHiAttrib vimHiGuiRgb
 " yellow
-hi vimHiGroup gui=NONE guifg=#cbb777 guibg=NONE
-hi link vimHiGui vimHiGroup
-hi link vimHiGuiFgBg vimHiGroup
+hi vimGroup gui=NONE guifg=#cbb777 guibg=NONE
+hi link vimHiGroup vimGroup
+hi link vimHiGui vimGroup
+hi link vimHiGuiFgBg vimGroup
 " purple
 hi vimCommand gui=NONE guifg=#c678dd guibg=NONE
 hi link vimHighlight vimCommand
@@ -135,9 +136,24 @@ hi link cssClassNameDot cssClassName
 hi link cssValueNumber cssClassName
 hi link cssUnitDecorators cssClassName
 hi link cssPseudoClassId cssClassName
+hi link cssCommonAttr cssClassName
 " purple
 hi cssImportant gui=NONE guifg=#c678dd guibg=NONE
 hi link cssIncludeKeyword cssImportant
+
+
+" red
+hi scssAmpersand gui=NONE guifg=#e06c75 guibg=NONE
+hi link scssVariable scssAmpersand
+" blue
+hi scssMixinName gui=NONE guifg=#61afef guibg=NONE
+hi link scssFunctionName scssMixinName
+" purple
+hi scssImport gui=NONE guifg=#c678dd guibg=NONE
+hi link scssMixin scssImport
+hi link scssAttribute scssImport
+hi link scssFunctionDefinition scssImport
+hi link scssReturn scssImport
 
 
 hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
