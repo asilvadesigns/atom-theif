@@ -27,7 +27,7 @@ hi Comment gui=NONE guifg=#5c6370 guibg=NONE
 hi Cursor gui=NONE guifg=#6494ed guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
-hi CursorLine gui=NONE guifg=NONE guibg=#2c313c 
+hi CursorLine gui=NONE guifg=NONE guibg=#2c313c
 hi CursorLineNr gui=NONE guifg=#6494ed guibg=NONE
 " hi DiffAdd gui=NONE guifg=NONE guibg=NONE
 " hi DiffChange gui=NONE guifg=NONE guibg=NONE
@@ -73,8 +73,13 @@ hi Visual gui=NONE guifg=NONE guibg=#3e4451
 " hi WildMenu gui=NONE guifg=NONE guibg=NONE
 
 
+" normal
+hi vimParenSep gui=NONE guifg=NONE guibg=NONE
 " red
 hi vimVar gui=NONE guifg=#e06c75 guibg=NONE
+hi link vimOption vimVar
+hi link vimSet vimVar
+hi link vimIsCommand vimVar
 " green
 hi vimString gui=NONE guifg=#98c379 guibg=NONE
 " blue
@@ -82,6 +87,7 @@ hi vimFuncName gui=NONE guifg=#61afef guibg=NONE
 " orange
 hi vimHiGuiRgb gui=NONE guifg=#d19a66 guibg=NONE
 hi link vimHiAttrib vimHiGuiRgb
+hi link vimNumber vimHiGuiRgb
 " yellow
 hi vimGroup gui=NONE guifg=#cbb777 guibg=NONE
 hi link vimHiGroup vimGroup
@@ -90,6 +96,7 @@ hi link vimHiGuiFgBg vimGroup
 " purple
 hi vimCommand gui=NONE guifg=#c678dd guibg=NONE
 hi link vimHighlight vimCommand
+
 
 " normal
 hi link htmlH1 Normal
@@ -154,6 +161,35 @@ hi link scssMixin scssImport
 hi link scssAttribute scssImport
 hi link scssFunctionDefinition scssImport
 hi link scssReturn scssImport
+
+
+" red
+hi Delimiter gui=NONE guifg=#e06c75 guibg=NONE
+hi link phpIdentifier Delimiter
+hi link phpVarSelector Delimiter
+" yellow
+hi phpBoolean gui=NONE guifg=#d19a66 guibg=NONE
+hi link phpNumber phpBoolean
+" green
+hi phpStringSingle gui=NONE guifg=#98c379 guibg=NONE
+hi link phpStringDouble phpStringSingle
+" blue
+hi phpFunction gui=NONE guifg=#61afef guibg=NONE
+" cyan
+hi phpFunctions gui=NONE guifg=#56b6c2 guibg=NONE
+hi link phpType phpFunctions
+" purple
+hi phpKeyword gui=NONE guifg=#c678dd guibg=NONE
+
+
+" normal
+hi jsonBraces gui=NONE guifg=NONE guibg=NONE
+" red
+hi jsonKeyword gui=NONE guifg=#e06c75 guibg=NONE
+" cyan
+hi jsonEscape gui=NONE guifg=#56b6c2 guibg=NONE
+" green
+hi jsonString gui=NONE guifg=#98c379 guibg=NONE
 
 
 hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
