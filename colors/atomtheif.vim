@@ -22,7 +22,7 @@ hi Ignore gui=NONE guifg=NONE guibg=NONE
 hi Error gui=NONE guifg=NONE guibg=NONE
 hi Todo gui=NONE guifg=NONE guibg=NONE
 
-hi Comment gui=NONE guifg=#5c6370 guibg=NONE
+hi Comment gui=italic guifg=#5c6370 guibg=NONE
 " hi Conceal gui=NONE guifg=NONE guibg=NONE
 hi Cursor gui=NONE guifg=#6494ed guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
@@ -57,8 +57,8 @@ hi PmenuThumb gui=NONE guifg=NONE guibg=NONE
 " hi SpellCap gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare gui=NONE guifg=NONE guibg=NONE
-hi StatusLine gui=NONE guifg=NONE guibg=NONE
-hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
+hi StatusLine gui=NONE guifg=NONE guibg=#21252b
+hi StatusLineNC gui=NONE guifg=#5c6370 guibg=#21252b
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
 " hi TabLine gui=NONE guifg=NONE guibg=NONE
 " hi TabLineFill gui=NONE guifg=NONE guibg=NONE
