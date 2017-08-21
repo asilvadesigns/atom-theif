@@ -147,6 +147,7 @@ hi link cssPositioningAttr cssClassName
 hi link cssClassNameDot cssClassName
 hi link cssValueNumber cssClassName
 hi link cssUnitDecorators cssClassName
+hi link cssColor cssClassName
 hi link cssPseudoClassId cssClassName
 hi link cssCommonAttr cssClassName
 " cyan
