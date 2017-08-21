@@ -150,6 +150,9 @@ hi link cssUnitDecorators cssClassName
 hi link cssColor cssClassName
 hi link cssPseudoClassId cssClassName
 hi link cssCommonAttr cssClassName
+hi link cssPseudoClassFn cssClassName
+" blue
+hi cssFunctionName gui=NONE guifg=#61afef guibg=NONE
 " cyan
 hi cssUnicodeEscape gui=NONE guifg=#56b6c2 guibg=NONE
 " purple
