@@ -212,6 +212,13 @@ hi yamlString gui=NONE guifg=#98c379 guibg=NONE
 hi link yamlConstant yamlString
 
 
+" red
+hi mkdNonListItemBlock gui=NONE guifg=#e06c75 guibg=NONE
+" green
+hi mkdListItem gui=NONE guifg=#98c379 guibg=NONE
+hi link mkdListItemLine mkdListItem
+
+
 " black
 let g:terminal_color_0 = '#282c34'
 " white
@@ -241,6 +248,9 @@ let g:terminal_color_11 = g:terminal_color_3
 " bg fg
 let g:terminal_color_background = g:terminal_color_0
 let g:terminal_color_foreground = g:terminal_color_7
+
+
+
 
 
 hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
