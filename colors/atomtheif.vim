@@ -57,8 +57,8 @@ hi PmenuThumb gui=NONE guifg=NONE guibg=NONE
 " hi SpellCap gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare gui=NONE guifg=NONE guibg=NONE
-hi StatusLine gui=NONE guifg=NONE guibg=#21252b
-hi StatusLineNC gui=NONE guifg=#5c6370 guibg=#21252b
+hi StatusLine gui=NONE guifg=NONE guibg=NONE
+hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
 " hi TabLine gui=NONE guifg=NONE guibg=NONE
 " hi TabLineFill gui=NONE guifg=NONE guibg=NONE
@@ -75,6 +75,7 @@ hi Visual gui=NONE guifg=NONE guibg=#3e4451
 
 " normal
 hi vimParenSep gui=NONE guifg=NONE guibg=NONE
+hi link vimSep vimParenSep
 " red
 hi vimVar gui=NONE guifg=#e06c75 guibg=NONE
 hi link vimOption vimVar
@@ -190,6 +191,44 @@ hi jsonKeyword gui=NONE guifg=#e06c75 guibg=NONE
 hi jsonEscape gui=NONE guifg=#56b6c2 guibg=NONE
 " green
 hi jsonString gui=NONE guifg=#98c379 guibg=NONE
+
+
+" red
+hi yamlKey gui=NONE guifg=#e06c75 guibg=NONE
+" green
+hi yamlString gui=NONE guifg=#98c379 guibg=NONE
+hi link yamlConstant yamlString
+
+
+" black
+let g:terminal_color_0 = '#282c34'
+" white
+let g:terminal_color_7 = '#abb2bf'
+" grey
+let g:terminal_color_8 = '#3e4451'
+" grey
+let g:terminal_color_15 = '#5c6370'
+" red
+let g:terminal_color_1 = '#e06c75'
+let g:terminal_color_9 = g:terminal_color_1
+" green
+let g:terminal_color_2 = '#98c379'
+let g:terminal_color_10 = g:terminal_color_2
+" blue
+let g:terminal_color_4 = '#61afef'
+let g:terminal_color_12 = g:terminal_color_4
+" purple
+let g:terminal_color_5 = '#c678dd'
+let g:terminal_color_13 = g:terminal_color_5
+" cyan
+let g:terminal_color_6 = '#56b6c2'
+let g:terminal_color_14 = g:terminal_color_6
+" yellow
+let g:terminal_color_3 = '#d19a66'
+let g:terminal_color_11 = g:terminal_color_3
+" bg fg
+let g:terminal_color_background = g:terminal_color_0
+let g:terminal_color_foreground = g:terminal_color_7
 
 
 hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
