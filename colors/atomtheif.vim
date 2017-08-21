@@ -138,13 +138,19 @@ hi link jsOperator jsFuncCall
 hi cssTagName gui=NONE guifg=#e06c75 guibg=NONE
 " green
 hi cssStringQ gui=NONE guifg=#98c379 guibg=NONE
+hi link cssStringQQ cssStringQ
 " yellow
 hi cssClassName gui=NONE guifg=#d19a66 guibg=NONE
+hi link cssFontAttr cssClassName
+hi link cssTransitionAttr cssClassName
+hi link cssPositioningAttr cssClassName
 hi link cssClassNameDot cssClassName
 hi link cssValueNumber cssClassName
 hi link cssUnitDecorators cssClassName
 hi link cssPseudoClassId cssClassName
 hi link cssCommonAttr cssClassName
+" cyan
+hi cssUnicodeEscape gui=NONE guifg=#56b6c2 guibg=NONE
 " purple
 hi cssImportant gui=NONE guifg=#c678dd guibg=NONE
 hi link cssIncludeKeyword cssImportant
@@ -153,11 +159,16 @@ hi link cssIncludeKeyword cssImportant
 " red
 hi scssAmpersand gui=NONE guifg=#e06c75 guibg=NONE
 hi link scssVariable scssAmpersand
+" yellow
+hi scssSelectorName gui=NONE guifg=#d19a66 guibg=NONE
+hi link scssSelectorChar scssSelectorName
 " blue
 hi scssMixinName gui=NONE guifg=#61afef guibg=NONE
 hi link scssFunctionName scssMixinName
 " purple
 hi scssImport gui=NONE guifg=#c678dd guibg=NONE
+hi link scssExtend scssImport
+hi link scssInclude scssImport
 hi link scssMixin scssImport
 hi link scssAttribute scssImport
 hi link scssFunctionDefinition scssImport
