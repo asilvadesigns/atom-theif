@@ -142,6 +142,7 @@ hi link cssStringQQ cssStringQ
 " yellow
 hi cssClassName gui=NONE guifg=#d19a66 guibg=NONE
 hi link cssFontAttr cssClassName
+hi link cssTextAttr cssClassName
 hi link cssTransitionAttr cssClassName
 hi link cssPositioningAttr cssClassName
 hi link cssClassNameDot cssClassName
