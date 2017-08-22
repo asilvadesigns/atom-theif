@@ -76,15 +76,19 @@ hi Visual gui=NONE guifg=NONE guibg=#3e4451
 " normal
 hi vimParenSep gui=NONE guifg=NONE guibg=NONE
 hi link vimSep vimParenSep
+hi link vimSet vimParenSep
 " red
 hi vimVar gui=NONE guifg=#e06c75 guibg=NONE
 hi link vimOption vimVar
-hi link vimSet vimVar
 hi link vimIsCommand vimVar
 " green
 hi vimString gui=NONE guifg=#98c379 guibg=NONE
 " blue
 hi vimFuncName gui=NONE guifg=#61afef guibg=NONE
+hi link vimBracket vimFuncName
+hi link vimNotation vimFuncName
+hi link vimMapModKey vimFuncName
+hi link vimMapLhs vimFuncName
 " orange
 hi vimHiGuiRgb gui=NONE guifg=#d19a66 guibg=NONE
 hi link vimHiAttrib vimHiGuiRgb
@@ -94,9 +98,11 @@ hi vimGroup gui=NONE guifg=#cbb777 guibg=NONE
 hi link vimHiGroup vimGroup
 hi link vimHiGui vimGroup
 hi link vimHiGuiFgBg vimGroup
+hi link vimMapRhs vimGroup
 " purple
 hi vimCommand gui=NONE guifg=#c678dd guibg=NONE
 hi link vimHighlight vimCommand
+hi link nvimMap vimCommand
 
 
 " normal
@@ -223,6 +229,17 @@ hi mkdListItem gui=NONE guifg=#98c379 guibg=NONE
 hi link mkdListItemLine mkdListItem
 
 
+" yellow
+hi pythonNumber gui=NONE guifg=#d19a66 guibg=NONE
+" blue
+hi pythonFunction gui=NONE guifg=#61afef guibg=NONE
+" purple
+hi pythonStatement gui=NONE guifg=#c678dd guibg=NONE
+hi link pythonRepeat pythonStatement
+hi link pythonConditional pythonStatement
+hi link pythonOperator pythonStatement
+
+
 " black
 let g:terminal_color_0 = '#282c34'
 " white
@@ -252,9 +269,6 @@ let g:terminal_color_11 = g:terminal_color_3
 " bg fg
 let g:terminal_color_background = g:terminal_color_0
 let g:terminal_color_foreground = g:terminal_color_7
-
-
-
 
 
 hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
