@@ -149,6 +149,8 @@ hi link cssStringQQ cssStringQ
 hi cssClassName gui=NONE guifg=#d19a66 guibg=NONE
 hi link cssFontAttr cssClassName
 hi link cssTextAttr cssClassName
+hi link cssValueLength cssClassName
+hi link cssValueTime cssClassName
 hi link cssTransitionAttr cssClassName
 hi link cssPositioningAttr cssClassName
 hi link cssClassNameDot cssClassName
@@ -158,6 +160,7 @@ hi link cssColor cssClassName
 hi link cssPseudoClassId cssClassName
 hi link cssCommonAttr cssClassName
 hi link cssPseudoClassFn cssClassName
+hi link cssAttributeSelector cssClassName
 " blue
 hi cssFunctionName gui=NONE guifg=#61afef guibg=NONE
 " cyan
@@ -222,8 +225,8 @@ hi yamlString gui=NONE guifg=#98c379 guibg=NONE
 hi link yamlConstant yamlString
 
 
-" red
-hi mkdNonListItemBlock gui=NONE guifg=#e06c75 guibg=NONE
+" normal
+hi mkdNonListItemBlock gui=NONE guifg=NONE guibg=NONE
 " green
 hi mkdListItem gui=NONE guifg=#98c379 guibg=NONE
 hi link mkdListItemLine mkdListItem
