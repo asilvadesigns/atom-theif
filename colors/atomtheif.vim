@@ -183,6 +183,7 @@ hi sassClass gui=NONE guifg=#d19a66 guibg=NONE
 hi link sassClassChar sassClass
 " blue
 hi sassMixinName gui=NONE guifg=#61afef guibg=NONE
+hi link sassCssAttribute sassMixinName
 hi link sassMixin sassMixinName
 hi link sassFunctionDecl sassMixinName
 hi link sassFunctionName sassMixinName
