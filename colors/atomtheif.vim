@@ -127,10 +127,15 @@ hi htmlArg gui=NONE guifg=#d19a66 guibg=NONE
 hi link jsParens Normal
 " red
 hi jsGlobalObjects gui=NONE guifg=#e06c75 guibg=NONE
+hi link jsObjectKey jsGlobalObjects
+" yellow
+hi jsBooleanFalse gui=NONE guifg=#d19a66 guibg=NONE
 " green
 hi jsString gui=NONE guifg=#98c379 guibg=NONE
 " blue
 hi jsFuncName gui=NONE guifg=#61afef guibg=NONE
+hi link jsGlobalNodeObjects jsFuncName
+hi link jsObjectProp jsFuncName
 " purple
 hi jsStorageClass gui=NONE guifg=#c678dd guibg=NONE
 hi link jsFunction jsStorageClass
