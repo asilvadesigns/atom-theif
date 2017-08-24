@@ -176,10 +176,11 @@ hi link cssIncludeKeyword cssImportant
 " red
 hi sassVariable gui=NONE guifg=#e06c75 guibg=NONE
 hi link sassAmpersand sassVariable
+hi link sassId sassVariable
+hi link sassIdChar sassVariable
 " yellow
 hi sassClass gui=NONE guifg=#d19a66 guibg=NONE
 hi link sassClassChar sassClass
-hi link sassCssAttribute sassClass
 " blue
 hi sassMixinName gui=NONE guifg=#61afef guibg=NONE
 hi link sassMixin sassMixinName
@@ -189,6 +190,7 @@ hi link sassFunction sassMixinName
 hi link sassPlaceholder sassMixinName
 " purple
 hi sassMixing gui=NONE guifg=#c678dd guibg=NONE
+hi link sassInclude sassMixing
 hi link sassReturn sassMixing
 hi link sassMedia sassMixing
 hi link sassExtend sassMixing
