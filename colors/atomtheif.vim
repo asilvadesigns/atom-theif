@@ -125,25 +125,28 @@ hi htmlArg gui=NONE guifg=#d19a66 guibg=NONE
 
 " normal
 hi link jsParens Normal
+hi jsOperator gui=NONE guifg=#abb2bf guibg=NONE
 " red
 hi jsGlobalObjects gui=NONE guifg=#e06c75 guibg=NONE
 hi link jsObjectKey jsGlobalObjects
+" orange
+hi jsNumber gui=NONE guifg=#d19a66 guibg=NONE
 " yellow
 hi jsBooleanFalse gui=NONE guifg=#d19a66 guibg=NONE
 " green
 hi jsString gui=NONE guifg=#98c379 guibg=NONE
 " blue
-hi jsFuncName gui=NONE guifg=#61afef guibg=NONE
-hi link jsGlobalNodeObjects jsFuncName
-hi link jsObjectProp jsFuncName
+hi jsFuncCall gui=NONE guifg=#61afef guibg=NONE
+hi link jsOperator jsFuncCall
+hi link jsFuncName jsFuncCall
 " purple
 hi jsStorageClass gui=NONE guifg=#c678dd guibg=NONE
 hi link jsFunction jsStorageClass
 hi link jsReturn jsStorageClass
 hi link jsConditional jsStorageClass
 " cyan
-hi jsFuncCall gui=NONE guifg=#56b6c2 guibg=NONE
-hi link jsOperator jsFuncCall
+hi jsGlobalNodeObjects gui=NONE guifg=#56b6c2 guibg=NONE
+hi link jsObjectProp jsGlobalNodeObjects
 
 
 " red
