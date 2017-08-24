@@ -162,6 +162,7 @@ hi link cssPseudoClassId cssClassName
 hi link cssCommonAttr cssClassName
 hi link cssPseudoClassFn cssClassName
 hi link cssAttributeSelector cssClassName
+hi link cssUIAttr cssClassName
 " blue
 hi cssFunctionName gui=NONE guifg=#61afef guibg=NONE
 " cyan
@@ -169,6 +170,22 @@ hi cssUnicodeEscape gui=NONE guifg=#56b6c2 guibg=NONE
 " purple
 hi cssImportant gui=NONE guifg=#c678dd guibg=NONE
 hi link cssIncludeKeyword cssImportant
+
+
+" red
+hi sassVariable gui=NONE guifg=#e06c75 guibg=NONE
+hi link sassAmpersand sassVariable
+" yellow
+hi sassClass gui=NONE guifg=#d19a66 guibg=NONE
+hi link sassClassChar sassClass
+" blue
+hi sassMixinName gui=NONE guifg=#61afef guibg=NONE
+hi link sassMixin sassMixinName
+hi link sassFunctionDecl sassMixinName
+hi link sassFunctionName sassMixinName
+" purple
+hi sassMixing gui=NONE guifg=#c678dd guibg=NONE
+hi link sassReturn sassMixing
 
 
 " red
