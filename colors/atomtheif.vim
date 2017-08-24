@@ -163,6 +163,7 @@ hi link cssCommonAttr cssClassName
 hi link cssPseudoClassFn cssClassName
 hi link cssAttributeSelector cssClassName
 hi link cssUIAttr cssClassName
+hi link cssBoxAttr cssClassName
 " blue
 hi cssFunctionName gui=NONE guifg=#61afef guibg=NONE
 " cyan
@@ -178,14 +179,19 @@ hi link sassAmpersand sassVariable
 " yellow
 hi sassClass gui=NONE guifg=#d19a66 guibg=NONE
 hi link sassClassChar sassClass
+hi link sassCssAttribute sassClass
 " blue
 hi sassMixinName gui=NONE guifg=#61afef guibg=NONE
 hi link sassMixin sassMixinName
 hi link sassFunctionDecl sassMixinName
 hi link sassFunctionName sassMixinName
+hi link sassFunction sassMixinName
+hi link sassPlaceholder sassMixinName
 " purple
 hi sassMixing gui=NONE guifg=#c678dd guibg=NONE
 hi link sassReturn sassMixing
+hi link sassMedia sassMixing
+hi link sassExtend sassMixing
 
 
 " red
