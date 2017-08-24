@@ -89,6 +89,7 @@ hi link vimBracket vimFuncName
 hi link vimNotation vimFuncName
 hi link vimMapModKey vimFuncName
 hi link vimMapLhs vimFuncName
+hi link vimUserFunc vimFuncName
 " orange
 hi vimHiGuiRgb gui=NONE guifg=#d19a66 guibg=NONE
 hi link vimHiAttrib vimHiGuiRgb
