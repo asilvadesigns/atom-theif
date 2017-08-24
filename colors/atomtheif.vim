@@ -190,9 +190,8 @@ hi link scssReturn scssImport
 
 
 " red
-hi Delimiter gui=NONE guifg=#e06c75 guibg=NONE
-hi link phpIdentifier Delimiter
-hi link phpVarSelector Delimiter
+hi phpIdentifier gui=NONE guifg=#e06c75 guibg=NONE
+hi link phpVarSelector phpIdentifier
 " yellow
 hi phpBoolean gui=NONE guifg=#d19a66 guibg=NONE
 hi link phpNumber phpBoolean
