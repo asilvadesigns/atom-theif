@@ -266,12 +266,20 @@ hi mkdListItem gui=NONE guifg=#98c379 guibg=NONE
 hi link mkdListItemLine mkdListItem
 
 
+" red
+hi pythonBuiltinFunc gui=NONE guifg=#e06c75 guibg=NONE
+hi link pythonBuiltinObj pythonBuiltinFunc
 " yellow
 hi pythonNumber gui=NONE guifg=#d19a66 guibg=NONE
+" green
+hi pythonString gui=NONE guifg=#98c379 guibg=NONE
 " blue
 hi pythonFunction gui=NONE guifg=#61afef guibg=NONE
+" cyan
+hi pythonOperator gui=NONE guifg=#56b6c2 guibg=NONE
 " purple
 hi pythonStatement gui=NONE guifg=#c678dd guibg=NONE
+hi link pythonImport pythonStatement
 hi link pythonRepeat pythonStatement
 hi link pythonConditional pythonStatement
 hi link pythonOperator pythonStatement
