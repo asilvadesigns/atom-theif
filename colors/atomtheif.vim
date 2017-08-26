@@ -44,9 +44,9 @@ hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
 " hi NonText gui=NONE guifg=NONE guibg=NONE
 " hi Normal gui=NONE guifg=NONE guibg=NONE
-hi Pmenu gui=NONE guifg=NONE guibg=NONE
+hi Pmenu gui=NONE guifg=NONE guibg=#3a3f4b
 hi PmenuSbar gui=NONE guifg=NONE guibg=NONE
-hi PmenuSel gui=NONE guifg=NONE guibg=NONE
+hi PmenuSel gui=NONE guifg=NONE guibg=#5c6370
 hi PmenuThumb gui=NONE guifg=NONE guibg=NONE
 " hi Question gui=NONE guifg=NONE guibg=NONE
 " hi QuickFixLine gui=NONE guifg=NONE guibg=NONE
