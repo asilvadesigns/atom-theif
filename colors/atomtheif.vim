@@ -51,7 +51,7 @@ hi PmenuThumb gui=NONE guifg=NONE guibg=NONE
 " hi Question gui=NONE guifg=NONE guibg=NONE
 " hi QuickFixLine gui=NONE guifg=NONE guibg=NONE
 " hi Search gui=NONE guifg=NONE guibg=NONE
-" hi SignColumn gui=NONE guifg=NONE guibg=NONE
+hi SignColumn gui=NONE guifg=NONE guibg=NONE
 " hi SpecialKey gui=NONE guifg=NONE guibg=NONE
 " hi SpellBad gui=NONE guifg=NONE guibg=NONE
 " hi SpellCap gui=NONE guifg=NONE guibg=NONE
@@ -320,6 +320,12 @@ hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
 hi BufTabLineActive gui=NONE guifg=#5c6370 guibg=#21252b
 hi BufTabLineHidden gui=NONE guifg=#5c6370 guibg=#21252b
 hi BufTabLineFill gui=NONE guifg=#5c6370 guibg=#21252b
+
+
+" red
+hi ALEErrorSign gui=NONE guifg=#e06c75 guibg=NONE
+" yellow
+hi ALEWarningSign gui=NONE guifg=#cbb777 guibg=NONE
 
 
 " MIT License
