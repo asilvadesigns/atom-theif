@@ -119,7 +119,7 @@ hi htmlTagName gui=NONE guifg=#e06c75 guibg=NONE
 hi link htmlSpecialTagName htmlTagName
 " green
 hi htmlString gui=NONE guifg=#98c379 guibg=NONE
-" yellow
+" orange
 hi htmlArg gui=NONE guifg=#d19a66 guibg=NONE
 
 
@@ -129,10 +129,12 @@ hi jsOperator gui=NONE guifg=#abb2bf guibg=NONE
 " red
 hi jsGlobalObjects gui=NONE guifg=#e06c75 guibg=NONE
 hi link jsObjectKey jsGlobalObjects
+hi link jsModuleKeyWord jsGlobalObjects
 " orange
 hi jsNumber gui=NONE guifg=#d19a66 guibg=NONE
 " yellow
-hi jsBooleanFalse gui=NONE guifg=#d19a66 guibg=NONE
+hi jsBooleanFalse gui=NONE guifg=#cbb777 guibg=NONE
+hi link jsClassDefinition jsBooleanFalse
 " green
 hi jsString gui=NONE guifg=#98c379 guibg=NONE
 " blue
@@ -144,6 +146,12 @@ hi jsStorageClass gui=NONE guifg=#c678dd guibg=NONE
 hi link jsFunction jsStorageClass
 hi link jsReturn jsStorageClass
 hi link jsConditional jsStorageClass
+hi link jsImport jsStorageClass
+hi link jsExport jsStorageClass
+hi link jsExportDefault jsStorageClass
+hi link jsFrom jsStorageClass
+hi link jsClassKeyword jsStorageClass
+hi link jsExtendsKeyword jsStorageClass
 " cyan
 hi jsGlobalNodeObjects gui=NONE guifg=#56b6c2 guibg=NONE
 hi link jsObjectProp jsGlobalNodeObjects
@@ -154,7 +162,7 @@ hi cssTagName gui=NONE guifg=#e06c75 guibg=NONE
 " green
 hi cssStringQ gui=NONE guifg=#98c379 guibg=NONE
 hi link cssStringQQ cssStringQ
-" yellow
+" orange
 hi cssClassName gui=NONE guifg=#d19a66 guibg=NONE
 hi link cssFontAttr cssClassName
 hi link cssTextAttr cssClassName
@@ -187,7 +195,7 @@ hi sassVariable gui=NONE guifg=#e06c75 guibg=NONE
 hi link sassAmpersand sassVariable
 hi link sassId sassVariable
 hi link sassIdChar sassVariable
-" yellow
+" orange
 hi sassClass gui=NONE guifg=#d19a66 guibg=NONE
 hi link sassClassChar sassClass
 " blue
@@ -209,7 +217,7 @@ hi link sassExtend sassMixing
 " red
 hi scssAmpersand gui=NONE guifg=#e06c75 guibg=NONE
 hi link scssVariable scssAmpersand
-" yellow
+" orange
 hi scssSelectorName gui=NONE guifg=#d19a66 guibg=NONE
 hi link scssSelectorChar scssSelectorName
 " blue
@@ -228,7 +236,7 @@ hi link scssReturn scssImport
 " red
 hi phpIdentifier gui=NONE guifg=#e06c75 guibg=NONE
 hi link phpVarSelector phpIdentifier
-" yellow
+" orange
 hi phpBoolean gui=NONE guifg=#d19a66 guibg=NONE
 hi link phpNumber phpBoolean
 " green
@@ -270,7 +278,7 @@ hi link mkdListItemLine mkdListItem
 " red
 hi pythonBuiltinFunc gui=NONE guifg=#e06c75 guibg=NONE
 hi link pythonBuiltinObj pythonBuiltinFunc
-" yellow
+" orange
 hi pythonNumber gui=NONE guifg=#d19a66 guibg=NONE
 " green
 hi pythonString gui=NONE guifg=#98c379 guibg=NONE
@@ -309,7 +317,7 @@ let g:terminal_color_13 = g:terminal_color_5
 " cyan
 let g:terminal_color_6 = '#56b6c2'
 let g:terminal_color_14 = g:terminal_color_6
-" yellow
+" orange
 let g:terminal_color_3 = '#d19a66'
 let g:terminal_color_11 = g:terminal_color_3
 " bg fg
