@@ -45,9 +45,9 @@ hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi NonText gui=NONE guifg=NONE guibg=NONE
 " hi Normal gui=NONE guifg=NONE guibg=NONE
 hi Pmenu gui=NONE guifg=NONE guibg=#3a3f4b
-hi PmenuSbar gui=NONE guifg=NONE guibg=NONE
 hi PmenuSel gui=NONE guifg=NONE guibg=#5c6370
-hi PmenuThumb gui=NONE guifg=NONE guibg=NONE
+hi PmenuSbar gui=NONE guifg=NONE guibg=#505662
+hi PmenuThumb gui=NONE guifg=NONE guibg=#abb2bf
 " hi Question gui=NONE guifg=NONE guibg=NONE
 " hi QuickFixLine gui=NONE guifg=NONE guibg=NONE
 " hi Search gui=NONE guifg=NONE guibg=NONE
@@ -174,6 +174,7 @@ hi link cssUIAttr cssClassName
 hi link cssBoxAttr cssClassName
 " blue
 hi cssFunctionName gui=NONE guifg=#61afef guibg=NONE
+hi link cssAuralAttr cssFunctionName
 " cyan
 hi cssUnicodeEscape gui=NONE guifg=#56b6c2 guibg=NONE
 " purple
@@ -317,7 +318,7 @@ let g:terminal_color_foreground = g:terminal_color_7
 
 
 hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
-hi BufTabLineActive gui=NONE guifg=#5c6370 guibg=#21252b
+hi BufTabLineActive gui=NONE guifg=#5c6370 guibg=#282c34
 hi BufTabLineHidden gui=NONE guifg=#5c6370 guibg=#21252b
 hi BufTabLineFill gui=NONE guifg=#5c6370 guibg=#21252b
 
