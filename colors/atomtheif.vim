@@ -123,6 +123,11 @@ hi htmlString gui=NONE guifg=#98c379 guibg=NONE
 hi htmlArg gui=NONE guifg=#d19a66 guibg=NONE
 
 
+" red
+hi link xmlTagName htmlTagName
+hi link xmlTagN htmlTagName
+
+
 " normal
 hi link jsParens Normal
 hi jsOperator gui=NONE guifg=#abb2bf guibg=NONE
@@ -130,6 +135,7 @@ hi jsOperator gui=NONE guifg=#abb2bf guibg=NONE
 hi jsGlobalObjects gui=NONE guifg=#e06c75 guibg=NONE
 hi link jsObjectKey jsGlobalObjects
 hi link jsModuleKeyWord jsGlobalObjects
+hi link jsThis jsGlobalObjects
 " orange
 hi jsNumber gui=NONE guifg=#d19a66 guibg=NONE
 " yellow
