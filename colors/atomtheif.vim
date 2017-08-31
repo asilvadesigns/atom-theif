@@ -28,7 +28,7 @@ hi Cursor gui=NONE guifg=#6494ed guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
 hi CursorLine gui=NONE guifg=NONE guibg=#2c313c
-hi CursorLineNr gui=NONE guifg=#6494ed guibg=NONE
+hi CursorLineNr gui=NONE guifg=#5c6370 guibg=#2c313c
 " hi DiffAdd gui=NONE guifg=NONE guibg=NONE
 " hi DiffChange gui=NONE guifg=NONE guibg=NONE
 " hi DiffDelete gui=NONE guifg=NONE guibg=NONE
