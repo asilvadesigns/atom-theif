@@ -39,7 +39,7 @@ hi EndOfBuffer gui=NONE guifg=#282c34 guibg=NONE
 " hi Folded gui=NONE guifg=NONE guibg=NONE
 " hi IncSearchc gui=NONE guifg=NONE guibg=NONE
 hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
-" hi MatchParen gui=NONE guifg=NONE guibg=NONE
+hi MatchParen gui=underline guifg=NONE guibg=NONE 
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
 " hi NonText gui=NONE guifg=NONE guibg=NONE
