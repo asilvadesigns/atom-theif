@@ -9,7 +9,8 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'atomtheif'
 
-hi Normal gui=NONE guifg=#abb2bf guibg=#282c34
+"hi Normal gui=NONE guifg=#abb2bf guibg=#282c34
+hi Normal gui=NONE guifg=#abb2bf guibg=NONE
 
 hi Constant gui=NONE guifg=NONE guibg=NONE
 hi Identifier gui=NONE guifg=NONE guibg=NONE
@@ -39,7 +40,7 @@ hi EndOfBuffer gui=NONE guifg=#282c34 guibg=NONE
 " hi Folded gui=NONE guifg=NONE guibg=NONE
 " hi IncSearchc gui=NONE guifg=NONE guibg=NONE
 hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
-hi MatchParen gui=underline guifg=NONE guibg=NONE 
+hi MatchParen gui=underline guifg=NONE guibg=NONE
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
 " hi NonText gui=NONE guifg=NONE guibg=NONE
@@ -165,9 +166,11 @@ hi link jsObjectProp jsGlobalNodeObjects
 
 " red
 hi cssTagName gui=NONE guifg=#e06c75 guibg=NONE
+hi link cssFontDescriptor cssTagName
 " green
 hi cssStringQ gui=NONE guifg=#98c379 guibg=NONE
 hi link cssStringQQ cssStringQ
+hi link cssFontDescriptorBlock cssStringQ
 " orange
 hi cssClassName gui=NONE guifg=#d19a66 guibg=NONE
 hi link cssFontAttr cssClassName
@@ -207,8 +210,6 @@ hi link sassClassChar sassClass
 " blue
 hi sassMixinName gui=NONE guifg=#61afef guibg=NONE
 hi link sassCssAttribute sassMixinName
-hi link sassMixin sassMixinName
-hi link sassFunctionDecl sassMixinName
 hi link sassFunctionName sassMixinName
 hi link sassFunction sassMixinName
 hi link sassPlaceholder sassMixinName
@@ -218,6 +219,9 @@ hi link sassInclude sassMixing
 hi link sassReturn sassMixing
 hi link sassMedia sassMixing
 hi link sassExtend sassMixing
+hi link sassMixin sassMixing
+hi link sassFunctionDecl sassMixing
+hi link sassControl sassMixing
 
 
 " red
@@ -237,6 +241,13 @@ hi link scssMixin scssImport
 hi link scssAttribute scssImport
 hi link scssFunctionDefinition scssImport
 hi link scssReturn scssImport
+
+
+" blue
+hi liquidKeyword gui=NONE guifg=#61afef guibg=NONE
+hi link liquidRepeat liquidKeyword
+" purple
+hi liquidFilter gui=NONE guifg=#c678dd guibg=NONE
 
 
 " red
