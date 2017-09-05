@@ -167,6 +167,7 @@ hi link jsObjectProp jsGlobalNodeObjects
 " red
 hi cssTagName gui=NONE guifg=#e06c75 guibg=NONE
 hi link cssFontDescriptor cssTagName
+hi link cssIdentifier cssTagName
 " green
 hi cssStringQ gui=NONE guifg=#98c379 guibg=NONE
 hi link cssStringQQ cssStringQ
