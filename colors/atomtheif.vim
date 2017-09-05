@@ -9,8 +9,8 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'atomtheif'
 
-"hi Normal gui=NONE guifg=#abb2bf guibg=#282c34
 hi Normal gui=NONE guifg=#abb2bf guibg=NONE
+"hi Normal gui=NONE guifg=#abb2bf guibg=NONE
 
 hi Constant gui=NONE guifg=NONE guibg=NONE
 hi Identifier gui=NONE guifg=NONE guibg=NONE
@@ -58,7 +58,7 @@ hi SignColumn gui=NONE guifg=NONE guibg=NONE
 " hi SpellCap gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare gui=NONE guifg=NONE guibg=NONE
-hi StatusLine gui=NONE guifg=NONE guibg=NONE
+hi StatusLine gui=NONE guifg=#abb2bf guibg=NONE
 hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
 " hi TabLine gui=NONE guifg=NONE guibg=NONE
