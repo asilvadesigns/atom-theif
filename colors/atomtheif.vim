@@ -272,6 +272,9 @@ hi phpKeyword gui=NONE guifg=#c678dd guibg=NONE
 hi jsonBraces gui=NONE guifg=NONE guibg=NONE
 " red
 hi jsonKeyword gui=NONE guifg=#e06c75 guibg=NONE
+" orange
+hi jsonBoolean gui=NONE guifg=#d19a66 guibg=NONE
+hi link jsonNumber jsonBoolean
 " cyan
 hi jsonEscape gui=NONE guifg=#56b6c2 guibg=NONE
 " green
