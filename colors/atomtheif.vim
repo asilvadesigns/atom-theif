@@ -29,14 +29,14 @@ hi Cursor gui=NONE guifg=#6494ed guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
 hi CursorLine gui=NONE guifg=NONE guibg=#2c313c
-hi CursorLineNr gui=NONE guifg=#5c6370 guibg=#2c313c
+hi CursorLineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi DiffAdd gui=NONE guifg=NONE guibg=NONE
 " hi DiffChange gui=NONE guifg=NONE guibg=NONE
 " hi DiffDelete gui=NONE guifg=NONE guibg=NONE
 " hi DiffText gui=NONE guifg=NONE guibg=NONE
 hi EndOfBuffer gui=NONE guifg=#282c34 guibg=NONE
 " hi ErrorMsg gui=NONE guifg=NONE guibg=NONE
-" hi FoldColumn gui=NONE guifg=NONE guibg=NONE
+hi FoldColumn gui=NONE guifg=NONE guibg=NONE
 " hi Folded gui=NONE guifg=NONE guibg=NONE
 " hi IncSearchc gui=NONE guifg=NONE guibg=NONE
 hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
