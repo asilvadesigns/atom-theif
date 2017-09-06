@@ -185,7 +185,6 @@ hi link cssClassNameDot cssClassName
 hi link cssValueNumber cssClassName
 hi link cssUnitDecorators cssClassName
 hi link cssColor cssClassName
-hi link cssPseudoClassId cssClassName
 hi link cssCommonAttr cssClassName
 hi link cssPseudoClassFn cssClassName
 hi link cssAttributeSelector cssClassName
@@ -196,6 +195,7 @@ hi cssFunctionName gui=NONE guifg=#61afef guibg=NONE
 hi link cssAuralAttr cssFunctionName
 " cyan
 hi cssUnicodeEscape gui=NONE guifg=#56b6c2 guibg=NONE
+hi link cssPseudoClassId cssUnicodeEscape
 " purple
 hi cssImportant gui=NONE guifg=#c678dd guibg=NONE
 hi link cssIncludeKeyword cssImportant
