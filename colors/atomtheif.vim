@@ -52,7 +52,7 @@ hi PmenuSbar gui=NONE guifg=NONE guibg=#505662
 hi PmenuThumb gui=NONE guifg=NONE guibg=#abb2bf
 " hi Question gui=NONE guifg=NONE guibg=NONE
 " hi QuickFixLine gui=NONE guifg=NONE guibg=NONE
-" hi Search gui=NONE guifg=NONE guibg=NONE
+hi Search gui=underline guifg=NONE guibg=#3e4451
 hi SignColumn gui=NONE guifg=NONE guibg=NONE
 " hi SpecialKey gui=NONE guifg=NONE guibg=NONE
 " hi SpellBad gui=NONE guifg=NONE guibg=NONE
