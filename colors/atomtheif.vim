@@ -9,7 +9,7 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'atomtheif'
 
-hi Normal gui=NONE guifg=#abb2bf guibg=NONE
+hi Normal gui=NONE guifg=#abb2bf guibg=#282c34
 "hi Normal gui=NONE guifg=#abb2bf guibg=NONE
 
 hi Constant gui=NONE guifg=NONE guibg=NONE
