@@ -373,6 +373,13 @@ hi ALEErrorSign gui=NONE guifg=#e06c75 guibg=NONE
 hi ALEWarningSign gui=NONE guifg=#cbb777 guibg=NONE
 
 
+" blue
+hi EasyMotionTarget gui=NONE guifg=#61afef guibg=NONE
+hi EasyMotionTarget2First gui=NONE guifg=#cbb777 guibg=NONE
+hi EasyMotionTarget2Second gui=NONE guifg=#d19a66 guibg=NONE
+hi link EasyMotionShade Comment
+hi EasyMotionIncSearch gui=NONE guifg=NONE guibg=NONE
+
 " MIT License
 "
 " Copyright (c) 2017 Alberto Silva
