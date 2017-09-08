@@ -140,15 +140,17 @@ hi link jsModuleKeyWord jsGlobalObjects
 hi link jsThis jsGlobalObjects
 " orange
 hi jsNumber gui=NONE guifg=#d19a66 guibg=NONE
+hi link jsBooleanTrue jsNumber
+hi link jsBooleanFalse jsNumber
 " yellow
-hi jsBooleanFalse gui=NONE guifg=#cbb777 guibg=NONE
-hi link jsClassDefinition jsBooleanFalse
+hi jsClassDefinition gui=NONE guifg=#cbb777 guibg=NONE
 " green
 hi jsString gui=NONE guifg=#98c379 guibg=NONE
 " blue
 hi jsFuncCall gui=NONE guifg=#61afef guibg=NONE
 hi link jsOperator jsFuncCall
 hi link jsFuncName jsFuncCall
+hi link jsExceptions jsFuncCall
 " purple
 hi jsStorageClass gui=NONE guifg=#c678dd guibg=NONE
 hi link jsFunction jsStorageClass
@@ -160,6 +162,9 @@ hi link jsExportDefault jsStorageClass
 hi link jsFrom jsStorageClass
 hi link jsClassKeyword jsStorageClass
 hi link jsExtendsKeyword jsStorageClass
+hi link jsTry jsStorageClass
+hi link jsCatch jsStorageClass
+hi link jsException jsStorageClass
 " cyan
 hi jsGlobalNodeObjects gui=NONE guifg=#56b6c2 guibg=NONE
 hi link jsObjectProp jsGlobalNodeObjects
