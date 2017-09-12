@@ -230,6 +230,7 @@ hi link sassExtend sassMixing
 hi link sassMixin sassMixing
 hi link sassFunctionDecl sassMixing
 hi link sassControl sassMixing
+hi link sassTodo sassMixing
 
 
 " red
