@@ -25,7 +25,7 @@ hi Todo gui=NONE guifg=NONE guibg=NONE
 
 hi Comment gui=italic guifg=#5c6370 guibg=NONE
 " hi Conceal gui=NONE guifg=NONE guibg=NONE
-hi Cursor gui=NONE guifg=#6494ed guibg=NONE
+" hi Cursor gui=NONE guifg=#6494ed guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
 hi CursorLine gui=NONE guifg=NONE guibg=#2c313c
