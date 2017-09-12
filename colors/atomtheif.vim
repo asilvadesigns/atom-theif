@@ -382,13 +382,18 @@ hi link EasyMotionShade Comment
 hi EasyMotionIncSearch gui=NONE guifg=NONE guibg=NONE
 
 
-hi StartifyBracket gui=NONE guifg=NONE guibg=NONE
-hi StartifyFooter gui=NONE guifg=NONE guibg=NONE
-hi StartifyHeader gui=NONE guifg=NONE guibg=NONE
-hi StartifyNumber gui=NONE guifg=NONE guibg=NONE
-hi StartifyPath gui=NONE guifg=NONE guibg=NONE
-hi StartifySlash gui=NONE guifg=NONE guibg=NONE
-hi StartifySpecial gui=NONE guifg=NONE guibg=NONE
+" normal
+hi! StartifyBracket gui=NONE guifg=#abb2bf guibg=NONE
+hi! StartifyFooter gui=NONE guifg=#abb2bf guibg=NONE
+" green
+hi! StartifyHeader gui=NONE guifg=#98c379 guibg=NONE
+" blue
+hi! StartifyNumber gui=NONE guifg=#61afef guibg=NONE
+" comment
+hi! StartifyPath gui=NONE guifg=#5c6370 guibg=NONE
+hi! StartifySlash gui=NONE guifg=#5c6370 guibg=NONE
+" purple
+hi! StartifySpecial gui=NONE guifg=#c678dd guibg=NONE
 
 
 " MIT License
