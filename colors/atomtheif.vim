@@ -381,6 +381,16 @@ hi EasyMotionTarget2Second gui=NONE guifg=#d19a66 guibg=NONE
 hi link EasyMotionShade Comment
 hi EasyMotionIncSearch gui=NONE guifg=NONE guibg=NONE
 
+
+hi StartifyBracket gui=NONE guifg=NONE guibg=NONE
+hi StartifyFooter gui=NONE guifg=NONE guibg=NONE
+hi StartifyHeader gui=NONE guifg=NONE guibg=NONE
+hi StartifyNumber gui=NONE guifg=NONE guibg=NONE
+hi StartifyPath gui=NONE guifg=NONE guibg=NONE
+hi StartifySlash gui=NONE guifg=NONE guibg=NONE
+hi StartifySpecial gui=NONE guifg=NONE guibg=NONE
+
+
 " MIT License
 "
 " Copyright (c) 2017 Alberto Silva
