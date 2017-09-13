@@ -59,6 +59,7 @@ hi SignColumn gui=NONE guifg=NONE guibg=NONE
 " hi SpellCap gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare gui=NONE guifg=NONE guibg=NONE
+"hi StatusLine gui=NONE guifg=#ffffff guibg=#3f5e9d
 hi StatusLine gui=NONE guifg=#abb2bf guibg=NONE
 hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
