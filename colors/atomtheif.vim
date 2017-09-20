@@ -9,8 +9,10 @@ if exists('syntax_on')
 endif
 let g:colors_name = 'atomtheif'
 
+
 hi Normal gui=NONE guifg=#abb2bf guibg=#282c34
 "hi Normal gui=NONE guifg=#abb2bf guibg=NONE
+
 
 hi Constant gui=NONE guifg=NONE guibg=NONE
 hi Identifier gui=NONE guifg=NONE guibg=NONE
@@ -22,6 +24,7 @@ hi Underlined gui=NONE guifg=NONE guibg=NONE
 hi Ignore gui=NONE guifg=NONE guibg=NONE
 hi Error gui=NONE guifg=NONE guibg=NONE
 hi Todo gui=NONE guifg=NONE guibg=NONE
+
 
 hi Comment gui=italic guifg=#5c6370 guibg=NONE
 " hi Conceal gui=NONE guifg=NONE guibg=NONE
@@ -144,6 +147,7 @@ hi link jsThis jsGlobalObjects
 hi jsNumber gui=NONE guifg=#d19a66 guibg=NONE
 hi link jsBooleanTrue jsNumber
 hi link jsBooleanFalse jsNumber
+hi link jsFloat jsNumber
 " yellow
 hi jsClassDefinition gui=NONE guifg=#cbb777 guibg=NONE
 " green
