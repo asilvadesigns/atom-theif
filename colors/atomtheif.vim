@@ -45,6 +45,7 @@ hi FoldColumn gui=NONE guifg=NONE guibg=NONE
 " hi IncSearchc gui=NONE guifg=NONE guibg=NONE
 hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
 hi MatchParen gui=underline guifg=NONE guibg=NONE
+hi ParenMatch gui=underline guifg=NONE guibg=#3e4451
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
 " hi NonText gui=NONE guifg=NONE guibg=NONE
@@ -365,7 +366,7 @@ hi BufTabLineHidden gui=NONE guifg=#5c6370 guibg=#21252b
 hi BufTabLineFill gui=NONE guifg=#5c6370 guibg=#21252b
 
 
-"hi vimfilerOpenedFile gui=NONE guifg=NONE guibg=NONE
+hi vimfilerOpenedFile gui=NONE guifg=#d19a66 guibg=NONE
 "hi vimfilerClosedFile gui=NONE guifg=NONE guibg=NONE
 "hi vimfilerNormalFile gui=NONE guifg=NONE guibg=NONE
 "hi vimfilerColumn__devicons gui=NONE guifg=NONE guibg=NONE
