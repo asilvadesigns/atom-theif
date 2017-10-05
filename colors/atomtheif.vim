@@ -43,7 +43,7 @@ hi EndOfBuffer gui=NONE guifg=#282c34 guibg=NONE
 hi FoldColumn gui=NONE guifg=NONE guibg=NONE
 " hi Folded gui=NONE guifg=NONE guibg=NONE
 " hi IncSearchc gui=NONE guifg=NONE guibg=NONE
-hi LineNr gui=NONE guifg=#5c6370 guibg=NONE
+hi LineNr gui=NONE guifg=#404859 guibg=NONE
 hi MatchParen gui=underline guifg=NONE guibg=NONE
 hi ParenMatch gui=underline guifg=NONE guibg=#3e4451
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
@@ -64,8 +64,10 @@ hi SignColumn gui=NONE guifg=NONE guibg=NONE
 " hi SpellLocal gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare gui=NONE guifg=NONE guibg=NONE
 "hi StatusLine gui=NONE guifg=#ffffff guibg=#3f5e9d
+
 hi StatusLine gui=NONE guifg=#abb2bf guibg=NONE
 hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
+
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
 " hi TabLine gui=NONE guifg=NONE guibg=NONE
 " hi TabLineFill gui=NONE guifg=NONE guibg=NONE
