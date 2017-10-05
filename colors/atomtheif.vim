@@ -146,6 +146,7 @@ hi link jsObjectKey jsGlobalObjects
 hi link jsObject jsGlobalObjects
 hi link jsModuleKeyWord jsGlobalObjects
 hi link jsThis jsGlobalObjects
+hi link jsTemplateBraces jsGlobalObjects
 " orange
 hi jsNumber gui=NONE guifg=#d19a66 guibg=NONE
 hi link jsBooleanTrue jsNumber
@@ -155,6 +156,7 @@ hi link jsFloat jsNumber
 hi jsClassDefinition gui=NONE guifg=#cbb777 guibg=NONE
 " green
 hi jsString gui=NONE guifg=#98c379 guibg=NONE
+hi link jsTemplateString jsString
 " blue
 hi jsFuncCall gui=NONE guifg=#61afef guibg=NONE
 hi link jsOperator jsFuncCall
