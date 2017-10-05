@@ -370,7 +370,7 @@ hi BufTabLineFill gui=NONE guifg=#5c6370 guibg=#21252b
 
 hi vimfilerOpenedFile gui=NONE guifg=#d19a66 guibg=NONE
 "hi vimfilerClosedFile gui=NONE guifg=NONE guibg=NONE
-"hi vimfilerNormalFile gui=NONE guifg=NONE guibg=NONE
+hi vimfilerNormalFile gui=NONE guifg=#5c6370 guibg=NONE
 "hi vimfilerColumn__devicons gui=NONE guifg=NONE guibg=NONE
 
 
