@@ -32,7 +32,8 @@ hi Comment gui=italic guifg=#5c6370 guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
 hi CursorLine gui=NONE guifg=NONE guibg=#2c313c
-hi CursorLineNr gui=NONE guifg=#d19a66 guibg=NONE
+hi CursorLineNr gui=NONE guifg=#404859 guibg=NONE
+"hi CursorLineNr gui=NONE guifg=#d19a66 guibg=NONE
 "hi CursorLineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi DiffAdd gui=NONE guifg=NONE guibg=NONE
 " hi DiffChange gui=NONE guifg=NONE guibg=NONE
