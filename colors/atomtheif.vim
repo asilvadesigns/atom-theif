@@ -176,6 +176,7 @@ hi link jsExtendsKeyword jsStorageClass
 hi link jsTry jsStorageClass
 hi link jsCatch jsStorageClass
 hi link jsException jsStorageClass
+hi link jsArrowFunction jsStorageClass
 " cyan
 hi jsGlobalNodeObjects gui=NONE guifg=#56b6c2 guibg=NONE
 hi link jsObjectProp jsGlobalNodeObjects
