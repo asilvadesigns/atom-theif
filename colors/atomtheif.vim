@@ -32,7 +32,7 @@ hi Comment gui=italic guifg=#5c6370 guibg=NONE
 " hi CursorColumn gui=NONE guifg=NONE guibg=NONE
 " hi CursorIM gui=NONE guifg=NONE guibg=NONE
 hi CursorLine gui=NONE guifg=NONE guibg=#2c313c
-hi CursorLineNr gui=NONE guifg=#3f5e9d guibg=NONE
+hi CursorLineNr gui=NONE guifg=#404859 guibg=#2c313c
 "hi CursorLineNr gui=NONE guifg=#5c6370 guibg=NONE
 " hi DiffAdd gui=NONE guifg=NONE guibg=NONE
 " hi DiffChange gui=NONE guifg=NONE guibg=NONE
@@ -66,7 +66,7 @@ hi SignColumn gui=NONE guifg=NONE guibg=NONE
 "hi StatusLine gui=NONE guifg=#ffffff guibg=#3f5e9d
 
 hi StatusLine gui=NONE guifg=#abb2bf guibg=NONE
-hi StatusLineNC gui=NONE guifg=#5c6370 guibg=NONE
+hi StatusLineNC gui=NONE guifg=#404859 guibg=NONE
 
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
 " hi TabLine gui=NONE guifg=NONE guibg=NONE
