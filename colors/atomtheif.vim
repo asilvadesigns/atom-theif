@@ -49,7 +49,7 @@ hi MatchParen gui=underline guifg=NONE guibg=NONE
 hi ParenMatch gui=underline guifg=NONE guibg=#3e4451
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
-hi NonText gui=NONE guifg=#404859 guibg=NONE
+hi NonText gui=NONE guifg=#343a47 guibg=NONE
 " hi Normal gui=NONE guifg=NONE guibg=NONE
 hi Pmenu gui=NONE guifg=NONE guibg=#3a3f4b
 hi PmenuSel gui=NONE guifg=NONE guibg=#5c6370
