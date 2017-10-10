@@ -49,7 +49,7 @@ hi MatchParen gui=underline guifg=NONE guibg=NONE
 hi ParenMatch gui=underline guifg=NONE guibg=#3e4451
 " hi ModeMsg gui=NONE guifg=NONE guibg=NONE
 " hi MoreMsg gui=NONE guifg=NONE guibg=NONE
-" hi NonText gui=NONE guifg=NONE guibg=NONE
+hi NonText gui=NONE guifg=#404859 guibg=NONE
 " hi Normal gui=NONE guifg=NONE guibg=NONE
 hi Pmenu gui=NONE guifg=NONE guibg=#3a3f4b
 hi PmenuSel gui=NONE guifg=NONE guibg=#5c6370
@@ -136,6 +136,10 @@ hi htmlArg gui=NONE guifg=#d19a66 guibg=NONE
 " red
 hi link xmlTagName htmlTagName
 hi link xmlTagN htmlTagName
+" orange
+hi xmlAttrib gui=NONE guifg=#d19a66 guibg=NONE
+" green
+hi xmlString gui=NONE guifg=#98c379 guibg=NONE
 
 
 " normal
@@ -383,8 +387,12 @@ hi qfFileName gui=NONE guifg=#61afef guibg=NONE
 
 " red
 hi ALEErrorSign gui=NONE guifg=#e06c75 guibg=NONE
+hi link ALEStyleError ALEErrorSign
 " yellow
 hi ALEWarningSign gui=NONE guifg=#cbb777 guibg=NONE
+hi link ALEStyleWarning ALEWarningSign
+" blue
+hi ALEInfo gui=NONE guifg=#61afef guibg=NONE
 
 
 " blue
