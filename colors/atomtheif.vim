@@ -403,6 +403,20 @@ hi link EasyMotionShade Comment
 hi EasyMotionIncSearch gui=NONE guifg=NONE guibg=NONE
 
 
+" blue
+hi shFunction gui=NONE guifg=#61afef guibg=NONE
+hi link shVariable shFunction
+" purple
+hi shEcho gui=NONE guifg=#c678dd guibg=NONE
+hi link shConditional shEcho
+" green
+hi shQuote gui=NONE guifg=#98c379 guibg=NONE
+hi shSingleQuote gui=NONE guifg=#98c379 guibg=NONE
+hi shDoubleQuote gui=NONE guifg=#98c379 guibg=NONE
+" orange
+hi shDerefSimple gui=NONE guifg=#d19a66 guibg=NONE 
+
+
 " normal
 hi! StartifyBracket gui=NONE guifg=#abb2bf guibg=NONE
 hi! StartifyFooter gui=NONE guifg=#abb2bf guibg=NONE
