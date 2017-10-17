@@ -339,6 +339,16 @@ hi link pythonConditional pythonStatement
 hi link pythonOperator pythonStatement
 
 
+" red
+hi sqlStatement gui=NONE guifg=#e06c75 guibg=NONE
+hi link sqlKeyword sqlStatement
+" blue
+hi sqlFunction gui=NONE guifg=#61afef guibg=NONE
+" green
+hi sqlString gui=NONE guifg=#98c379 guibg=NONE
+hi link Quote sqlString
+
+
 " black
 let g:terminal_color_0 = '#282c34'
 " white
@@ -370,19 +380,35 @@ let g:terminal_color_background = g:terminal_color_0
 let g:terminal_color_foreground = g:terminal_color_7
 
 
-hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
-hi BufTabLineActive gui=NONE guifg=#5c6370 guibg=#282c34
-hi BufTabLineHidden gui=NONE guifg=#5c6370 guibg=#21252b
-hi BufTabLineFill gui=NONE guifg=#5c6370 guibg=#21252b
-
-
-hi vimfilerOpenedFile gui=NONE guifg=#d19a66 guibg=NONE
-"hi vimfilerClosedFile gui=NONE guifg=NONE guibg=NONE
-hi vimfilerNormalFile gui=NONE guifg=#5c6370 guibg=NONE
-"hi vimfilerColumn__devicons gui=NONE guifg=NONE guibg=NONE
-
-
 hi qfFileName gui=NONE guifg=#61afef guibg=NONE
+
+
+" blue
+hi shFunction gui=NONE guifg=#61afef guibg=NONE
+hi link shVariable shFunction
+" purple
+hi shEcho gui=NONE guifg=#c678dd guibg=NONE
+hi link shConditional shEcho
+" green
+hi shQuote gui=NONE guifg=#98c379 guibg=NONE
+hi shSingleQuote gui=NONE guifg=#98c379 guibg=NONE
+hi shDoubleQuote gui=NONE guifg=#98c379 guibg=NONE
+" orange
+hi shDerefSimple gui=NONE guifg=#d19a66 guibg=NONE
+
+
+" normal
+hi! StartifyBracket gui=NONE guifg=#abb2bf guibg=NONE
+hi! StartifyFooter gui=NONE guifg=#abb2bf guibg=NONE
+" green
+hi! StartifyHeader gui=NONE guifg=#98c379 guibg=NONE
+" blue
+hi! StartifyNumber gui=NONE guifg=#61afef guibg=NONE
+" comment
+hi! StartifyPath gui=NONE guifg=#5c6370 guibg=NONE
+hi! StartifySlash gui=NONE guifg=#5c6370 guibg=NONE
+" purple
+hi! StartifySpecial gui=NONE guifg=#c678dd guibg=NONE
 
 
 " red
@@ -403,32 +429,16 @@ hi link EasyMotionShade Comment
 hi EasyMotionIncSearch gui=NONE guifg=NONE guibg=NONE
 
 
-" blue
-hi shFunction gui=NONE guifg=#61afef guibg=NONE
-hi link shVariable shFunction
-" purple
-hi shEcho gui=NONE guifg=#c678dd guibg=NONE
-hi link shConditional shEcho
-" green
-hi shQuote gui=NONE guifg=#98c379 guibg=NONE
-hi shSingleQuote gui=NONE guifg=#98c379 guibg=NONE
-hi shDoubleQuote gui=NONE guifg=#98c379 guibg=NONE
-" orange
-hi shDerefSimple gui=NONE guifg=#d19a66 guibg=NONE 
+hi BufTabLineCurrent gui=NONE guifg=NONE guibg=#282c34
+hi BufTabLineActive gui=NONE guifg=#5c6370 guibg=#282c34
+hi BufTabLineHidden gui=NONE guifg=#5c6370 guibg=#21252b
+hi BufTabLineFill gui=NONE guifg=#5c6370 guibg=#21252b
 
 
-" normal
-hi! StartifyBracket gui=NONE guifg=#abb2bf guibg=NONE
-hi! StartifyFooter gui=NONE guifg=#abb2bf guibg=NONE
-" green
-hi! StartifyHeader gui=NONE guifg=#98c379 guibg=NONE
-" blue
-hi! StartifyNumber gui=NONE guifg=#61afef guibg=NONE
-" comment
-hi! StartifyPath gui=NONE guifg=#5c6370 guibg=NONE
-hi! StartifySlash gui=NONE guifg=#5c6370 guibg=NONE
-" purple
-hi! StartifySpecial gui=NONE guifg=#c678dd guibg=NONE
+hi vimfilerOpenedFile gui=NONE guifg=#d19a66 guibg=NONE
+"hi vimfilerClosedFile gui=NONE guifg=NONE guibg=NONE
+hi vimfilerNormalFile gui=NONE guifg=#5c6370 guibg=NONE
+"hi vimfilerColumn__devicons gui=NONE guifg=NONE guibg=NONE
 
 
 " MIT License
