@@ -10,7 +10,7 @@ endif
 let g:colors_name = 'atomtheif'
 
 
-hi Normal gui=NONE guifg=#abb2bf guibg=#282c34
+hi Normal gui=NONE guifg=#abb2bf guibg=NONE
 "hi Normal gui=NONE guifg=#abb2bf guibg=NONE
 
 
@@ -295,6 +295,7 @@ hi phpKeyword gui=NONE guifg=#c678dd guibg=NONE
 
 " normal
 hi jsonBraces gui=NONE guifg=NONE guibg=NONE
+hi link jsonQuote jsonBraces
 " red
 hi jsonKeyword gui=NONE guifg=#e06c75 guibg=NONE
 " orange
