@@ -66,6 +66,7 @@ hi SignColumn gui=NONE guifg=NONE guibg=NONE
 " hi SpellRare gui=NONE guifg=NONE guibg=NONE
 "hi StatusLine gui=NONE guifg=#ffffff guibg=#3f5e9d
 
+"hi StatusLine gui=NONE guifg=#abb2bf guibg=#3a3f4b
 hi StatusLine gui=NONE guifg=#abb2bf guibg=NONE
 hi StatusLineNC gui=NONE guifg=#404859 guibg=NONE
 
@@ -152,6 +153,7 @@ hi link jsObject jsGlobalObjects
 hi link jsModuleKeyWord jsGlobalObjects
 hi link jsThis jsGlobalObjects
 hi link jsTemplateBraces jsGlobalObjects
+hi link jsFuncArgs jsGlobalObjects
 " orange
 hi jsNumber gui=NONE guifg=#d19a66 guibg=NONE
 hi link jsBooleanTrue jsNumber
@@ -182,9 +184,12 @@ hi link jsTry jsStorageClass
 hi link jsCatch jsStorageClass
 hi link jsException jsStorageClass
 hi link jsArrowFunction jsStorageClass
+hi link jsRepeat jsStorageClass
+hi link jsLabel jsStorageClass
 " cyan
 hi jsGlobalNodeObjects gui=NONE guifg=#56b6c2 guibg=NONE
 hi link jsObjectProp jsGlobalNodeObjects
+hi link jsTernaryIfOperator jsGlobalNodeObjects
 
 
 " red
