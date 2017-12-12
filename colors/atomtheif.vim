@@ -67,8 +67,8 @@ hi SignColumn gui=NONE guifg=NONE guibg=NONE
 "hi StatusLine gui=NONE guifg=#ffffff guibg=#3f5e9d
 
 "hi StatusLine gui=NONE guifg=#abb2bf guibg=#3a3f4b
-hi StatusLine gui=NONE guifg=#abb2bf guibg=#21252b
-hi StatusLineNC gui=NONE guifg=#404859 guibg=#21252b
+hi StatusLine gui=NONE guifg=#abb2bf guibg=NONE
+hi StatusLineNC gui=NONE guifg=#404859 guibg=NONE
 
 " hi Substitute gui=NONE guifg=NONE guibg=NONE
 " hi TabLine gui=NONE guifg=NONE guibg=NONE
@@ -77,7 +77,7 @@ hi StatusLineNC gui=NONE guifg=#404859 guibg=#21252b
 " hi TermCursor gui=NONE guifg=NONE guibg=NONE
 " hi TermCursorNC gui=NONE guifg=NONE guibg=NONE
 " hi Title gui=NONE guifg=NONE guibg=NONE
-hi VertSplit gui=NONE guifg=#21252b guibg=#21252b
+hi VertSplit gui=NONE guifg=#282c34 guibg=NONE
 hi Visual gui=NONE guifg=NONE guibg=#3e4451
 " hi WarningMsg gui=NONE guifg=NONE guibg=NONE
 " hi Whitespace gui=NONE guifg=NONE guibg=NONE
