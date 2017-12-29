@@ -140,12 +140,14 @@ call s:HL('WildMenu'     , s:gray6   , s:yellow  , 'none')
 
 hi link vimCommand Statement
 hi link vimCommentTitle Normal
+hi link vimGroup Normal
 hi link vimContinue Comment
 hi link vimEnvVar Number
 hi link vimFuncName Special
 hi link vimHiGroup Type
 hi link vimHiGui Type
 hi link vimHiGuiFgBg Type
+hi link vimIsCommand Identifier
 hi link vimNumber Number
 hi link vimOper Normal
 hi link vimOperParen Normal
@@ -153,6 +155,7 @@ hi link vimParenSep Normal
 hi link vimSep Normal
 hi link vimSet Constant
 hi link vimString String
+hi link vimUserFunc Special
 hi link vimVar Function
 
 
@@ -193,13 +196,14 @@ hi link jsObjectProp Normal
 " red
 hi link jsGlobalObjects Function
 hi link jsThis Function
+hi link jsTemplateBraces Function
 " orange
 hi link javaScriptNumber Number
 hi link jsNull Number
 " blue
 hi link jsClassFuncName Special
 " cyan
-hi link jsFuncCall Typedef
+hi link jsFuncCall Special
 " yellow
 hi link jsClassDefinition Type
 " purple
@@ -209,6 +213,7 @@ hi link jsClassMethodType Constant
 hi link jsExtendsKeyword Constant
 hi link jsReturn Constant
 hi link jsStorageClass Constant
+hi link jsFunction Constant
 " cyan
 hi link jsOperator Typedef
 
@@ -329,29 +334,23 @@ hi link scssSelectorName Identifier
 "hi link phpType phpFunctions
 "" purple
 "hi phpKeyword gui=NONE guifg=#c678dd guibg=NONE
-"
-"
-"" normal
-"hi jsonBraces gui=NONE guifg=NONE guibg=NONE
-"hi link jsonQuote jsonBraces
-"" red
-"hi jsonKeyword gui=NONE guifg=#e06c75 guibg=NONE
-"" orange
-"hi jsonBoolean gui=NONE guifg=#d19a66 guibg=NONE
-"hi link jsonNumber jsonBoolean
-"" cyan
-"hi jsonEscape gui=NONE guifg=#56b6c2 guibg=NONE
-"" green
-"hi jsonString gui=NONE guifg=#98c379 guibg=NONE
-"
-"
-"" red
-"hi yamlKey gui=NONE guifg=#e06c75 guibg=NONE
-"" green
-"hi yamlString gui=NONE guifg=#98c379 guibg=NONE
-"hi link yamlConstant yamlString
-"
-"
+
+
+" normal
+hi link jsonBraces Normal
+" red
+hi link jsonKeyword Identifier
+" orange
+hi link jsonBoolean Number
+hi link jsonNumber Number
+" cyan
+hi link jsonEscape Special
+
+
+" orange
+hi link yamlConstant Number
+
+
 "" normal
 "hi mkdNonListItemBlock gui=NONE guifg=NONE guibg=NONE
 "" green
