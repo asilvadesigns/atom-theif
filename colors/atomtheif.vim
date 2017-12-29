@@ -146,6 +146,8 @@ hi link vimEnvVar Number
 hi link vimFuncName Special
 hi link vimHiGroup Type
 hi link vimHiGui Type
+hi link vimOption Identifier
+hi link vimAugroup Typedef
 hi link vimHiGuiFgBg Type
 hi link vimIsCommand Identifier
 hi link vimNumber Number
@@ -387,35 +389,35 @@ hi link yamlConstant Number
 "hi link Quote sqlString
 "
 "
-"" black
-"let g:terminal_color_0 = '#282c34'
-"" white
-"let g:terminal_color_7 = '#abb2bf'
-"" grey
-"let g:terminal_color_8 = '#3e4451'
-"" grey
-"let g:terminal_color_15 = '#5c6370'
-"" red
-"let g:terminal_color_1 = '#e06c75'
-"let g:terminal_color_9 = g:terminal_color_1
-"" green
-"let g:terminal_color_2 = '#98c379'
-"let g:terminal_color_10 = g:terminal_color_2
-"" blue
-"let g:terminal_color_4 = '#61afef'
-"let g:terminal_color_12 = g:terminal_color_4
-"" purple
-"let g:terminal_color_5 = '#c678dd'
-"let g:terminal_color_13 = g:terminal_color_5
-"" cyan
-"let g:terminal_color_6 = '#56b6c2'
-"let g:terminal_color_14 = g:terminal_color_6
-"" orange
-"let g:terminal_color_3 = '#d19a66'
-"let g:terminal_color_11 = g:terminal_color_3
-"" bg fg
-"let g:terminal_color_background = g:terminal_color_0
-"let g:terminal_color_foreground = g:terminal_color_7
+" black
+let g:terminal_color_0 = s:gray6
+" white
+let g:terminal_color_7 = s:gray1
+" grey
+let g:terminal_color_8 = '#3e4451'
+" grey
+let g:terminal_color_15 = s:gray2
+" red
+let g:terminal_color_1 = s:red
+let g:terminal_color_9 = g:terminal_color_1
+" green
+let g:terminal_color_2 = '#98c379'
+let g:terminal_color_10 = g:terminal_color_2
+" blue
+let g:terminal_color_4 = s:blue
+let g:terminal_color_12 = g:terminal_color_4
+" purple
+let g:terminal_color_5 = s:purple
+let g:terminal_color_13 = g:terminal_color_5
+" cyan
+let g:terminal_color_6 = s:cyan
+let g:terminal_color_14 = g:terminal_color_6
+" orange
+let g:terminal_color_3 = s:orange
+let g:terminal_color_11 = g:terminal_color_3
+" bg fg
+let g:terminal_color_background = g:terminal_color_0
+let g:terminal_color_foreground = g:terminal_color_7
 "
 "
 "hi qfFileName gui=NONE guifg=#61afef guibg=NONE
