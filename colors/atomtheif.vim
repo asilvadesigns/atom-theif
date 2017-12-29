@@ -437,18 +437,19 @@ let g:terminal_color_foreground = g:terminal_color_7
 "hi shDerefSimple gui=NONE guifg=#d19a66 guibg=NONE
 "
 "
-"" normal
-"hi! StartifyBracket gui=NONE guifg=#abb2bf guibg=NONE
-"hi! StartifyFooter gui=NONE guifg=#abb2bf guibg=NONE
-"" green
-"hi! StartifyHeader gui=NONE guifg=#98c379 guibg=NONE
-"" blue
-"hi! StartifyNumber gui=NONE guifg=#61afef guibg=NONE
-"" comment
-"hi! StartifyPath gui=NONE guifg=#5c6370 guibg=NONE
-"hi! StartifySlash gui=NONE guifg=#5c6370 guibg=NONE
-"" purple
-"hi! StartifySpecial gui=NONE guifg=#c678dd guibg=NONE
+" normal
+
+hi link StartifyBracket Normal
+hi link StartifyFooter Normal
+" green
+hi link StartifyHeader String
+" blue
+hi link StartifyNumber Special
+" comment
+hi link StartifyPath Comment
+hi link StartifySlash Comment
+" purple
+hi link StartifySpecial Constant
 "
 "
 " red
