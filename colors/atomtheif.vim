@@ -128,8 +128,8 @@ call s:HL('Substitute'   , 'none'    , s:gray4   , 'none')
 call s:HL('TabLine'      , s:gray2   , s:gray7   , 'none')
 call s:HL('TabLineFill'  , s:gray2   , s:gray7   , 'none')
 call s:HL('TabLineSel'   , 'none'    , s:gray6   , 'none')
-call s:HL('TermCursor'   , '#6494ed' , 'none'    , 'none')
-call s:HL('TermCursorNC' , 'none'    , 'none'    , 'none')
+call s:HL('TermCursor'   , 'none'    , s:gray1   , 'none')
+call s:HL('TermCursorNC' , 'none'    , s:gray3   , 'none')
 call s:HL('Title'        , s:orange  , 'none'    , 'none')
 call s:HL('VertSplit'    , s:gray6   , 'none'    , 'none')
 call s:HL('Visual'       , 'none'    , s:gray3   , 'none')
@@ -468,7 +468,8 @@ hi link ALEInfo Special
 "hi EasyMotionIncSearch gui=NONE guifg=NONE guibg=NONE
 "
 "
-call s:HL('BufTabLineCurrent' , 'none'  , s:gray6 , 'none')
+call s:HL('BufTabLineCurrent' , s:gray1 , s:gray6 , 'none')
+call s:HL('BufTabLineActive'  , s:gray2 , s:gray6 , 'none')
 call s:HL('BufTabLineFill'    , s:gray2 , s:gray7 , 'none')
 call s:HL('BufTabLineHidden'  , s:gray2 , s:gray7 , 'none')
 "
