@@ -162,13 +162,13 @@ hi link vimVar Function
 
 
 "" normal
-"hi link htmlH1 Normal
-"hi link htmlH2 Normal
-"hi link htmlH3 Normal
-"hi link htmlH4 Normal
-"hi link htmlH5 Normal
-"hi link htmlH6 Normal
-"hi link htmlTitle Normal
+hi link htmlH1 Normal
+hi link htmlH2 Normal
+hi link htmlH3 Normal
+hi link htmlH4 Normal
+hi link htmlH5 Normal
+hi link htmlH6 Normal
+hi link htmlTitle Normal
 " normal
 hi link htmlTag Normal
 hi link htmlEndTag Normal
@@ -197,8 +197,8 @@ hi link jsFuncArgs Normal
 hi link jsObjectProp Normal
 " red
 hi link jsGlobalObjects Function
-hi link jsThis Function
 hi link jsTemplateBraces Function
+hi link jsThis Function
 " orange
 hi link javaScriptNumber Number
 hi link jsNull Number
@@ -213,9 +213,9 @@ hi link jsArrowFunction Constant
 hi link jsClassKeyword Constant
 hi link jsClassMethodType Constant
 hi link jsExtendsKeyword Constant
+hi link jsFunction Constant
 hi link jsReturn Constant
 hi link jsStorageClass Constant
-hi link jsFunction Constant
 " cyan
 hi link jsOperator Typedef
 
@@ -241,8 +241,9 @@ hi link cssUIProp Normal
 hi link cssAttrRegion Comment
 " red
 hi link cssTagName Identifier
-hi link cssClassName Identifier
 " orange
+hi link cssClassName Number
+hi link cssClassNameDot Number
 hi link cssBackgroundAttr Number
 hi link cssBoxAttr Number
 hi link cssCommonAttr Number
@@ -262,6 +263,7 @@ hi link cssColor Typedef
 hi link cssFunctionComma Typedef
 " purple
 hi link cssSelectorOp Constant
+hi link cssImportant Constant
 
 
 " normal
@@ -273,10 +275,12 @@ hi link scssSelectorName Identifier
 "hi link sassAmpersand sassVariable
 "hi link sassId sassVariable
 "hi link sassIdChar sassVariable
-"" orange
+" orange
+hi link scssSelectorName Number
 "hi sassClass gui=NONE guifg=#d19a66 guibg=NONE
 "hi link sassClassChar sassClass
-"" blue
+" blue
+hi link scssMixinName Special
 "hi sassMixinName gui=NONE guifg=#61afef guibg=NONE
 "hi link sassCssAttribute sassMixinName
 "hi link sassFunctionName sassMixinName
