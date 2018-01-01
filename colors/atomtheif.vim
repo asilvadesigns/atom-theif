@@ -202,10 +202,13 @@ hi link jsThis Function
 " orange
 hi link javaScriptNumber Number
 hi link jsNull Number
+hi link jsBooleanFalse Number
+hi link jsBooleanTrue Number
 " blue
+hi link jsFuncName Special
 hi link jsClassFuncName Special
 " cyan
-hi link jsFuncCall Special
+hi link jsFuncCall Typedef
 " yellow
 hi link jsClassDefinition Type
 " purple
