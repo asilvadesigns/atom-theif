@@ -236,12 +236,13 @@ hi link cssFlexibleBoxProp Normal
 hi link cssFontProp Normal
 hi link cssInteractProp Normal
 hi link cssPositioningProp Normal
+hi link cssTableProp Normal
 hi link cssTextProp Normal
 hi link cssTransformProp Normal
 hi link cssTransitionProp Normal
 hi link cssUIProp Normal
 " gray
-hi link cssAttrRegion Comment
+hi link cssAttrRegion Normal
 " red
 hi link cssTagName Identifier
 " orange
@@ -252,6 +253,7 @@ hi link cssBoxAttr Number
 hi link cssCommonAttr Number
 hi link cssFlexibleBoxAttr Number
 hi link cssFontAttr Number
+hi link cssTableAttr Number
 hi link cssMultiColumnAttr Number
 hi link cssPositioningAttr Number
 hi link cssPseudoClassFn Number
