@@ -327,7 +327,11 @@ hi link scssMixinName Special
 "hi liquidFilter gui=NONE guifg=#c678dd guibg=NONE
 "
 "
-"" red
+" normal
+hi link phpParent Normal
+hi link phpOperator Normal
+" red
+hi link phpVarSelector Identifier
 "hi phpIdentifier gui=NONE guifg=#e06c75 guibg=NONE
 "hi link phpVarSelector phpIdentifier
 "" orange
@@ -336,8 +340,11 @@ hi link scssMixinName Special
 "" green
 "hi phpStringSingle gui=NONE guifg=#98c379 guibg=NONE
 "hi link phpStringDouble phpStringSingle
-"" blue
-"hi phpFunction gui=NONE guifg=#61afef guibg=NONE
+" blue
+hi link phpFunction Special
+hi link phpRegion Special
+" cyan
+hi link phpFunctions Typedef
 "" cyan
 "hi phpFunctions gui=NONE guifg=#56b6c2 guibg=NONE
 "hi link phpType phpFunctions
