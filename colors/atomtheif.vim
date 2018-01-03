@@ -88,7 +88,7 @@ call s:HL('Typedef'     , s:cyan , 'NONE'  , 'NONE')
 " vim
 call s:HL('Comment'      , s:gray2   , 'NONE'    , 'italic')
 call s:HL('Conceal'      , s:gray4   , 'NONE'    , 'NONE')
-call s:HL('Cursor'       , '#6494ed' , 'NONE'    , 'NONE')
+call s:HL('Cursor'       , s:gray1   , '#3f5e9d' , 'NONE')
 call s:HL('CursorColumn' , 'NONE'    , 'NONE'    , 'NONE')
 call s:HL('CursorIM'     , '#6494ed' , 'NONE'    , 'NONE')
 call s:HL('CursorLine'   , 'NONE'    , s:gray5   , 'NONE')
