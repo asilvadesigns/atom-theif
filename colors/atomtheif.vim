@@ -14,6 +14,7 @@ endif
 let g:colors_name = 'atomtheif'
 
 
+
 "   ~grayscale
 let s:gray1  = '#abb2bf'
 let s:gray2  = '#5c6370'
