@@ -14,7 +14,6 @@ endif
 let g:colors_name = 'atomtheif'
 
 
-
 "   ~grayscale
 let s:gray1  = '#abb2bf'
 let s:gray2  = '#5c6370'
@@ -132,7 +131,7 @@ call s:HL('TabLineSel'   , 'NONE'    , s:gray6   , 'NONE')
 call s:HL('TermCursor'   , 'NONE'    , s:gray1   , 'NONE')
 call s:HL('TermCursorNC' , 'NONE'    , s:gray3   , 'NONE')
 call s:HL('Title'        , s:orange  , 'NONE'    , 'NONE')
-call s:HL('VertSplit'    , s:gray6   , 'NONE'    , 'NONE')
+call s:HL('VertSplit'    , s:gray7   , 'NONE'    , 'NONE')
 call s:HL('Visual'       , 'NONE'    , s:gray3   , 'NONE')
 call s:HL('WarningMsg'   , s:red     , 'NONE'    , 'NONE')
 call s:HL('Whitespace'   , s:gray4   , 'NONE'    , 'NONE')
